@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  agendaflow:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - MISTRAL_API_KEY=${MISTRAL_API_KEY}
+      - OPENAGENDA_API_KEY=${OPENAGENDA_API_KEY}
+      - RAG_MODEL_NAME=${RAG_MODEL_NAME:-mistral-small-latest}
+      - INDEX_PATH=data/index/faiss
+      - CITY=Paris
+      - OPENAGENDA_MODE=${OPENAGENDA_MODE:-agenda}
+      - REBUILD_TOKEN=${REBUILD_TOKEN:-change_me}
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
