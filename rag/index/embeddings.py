@@ -4,9 +4,11 @@ import hashlib
 from pathlib import Path
 from typing import List, Optional
 import logging
+import os
 
 import numpy as np
 from sentence_transformers import SentenceTransformer
+from mistralai import Mistral
 
 logger = logging.getLogger(__name__)
 
@@ -20,18 +22,21 @@ class EmbeddingGenerator:
         cache_dir: Optional[Path] = None,
         batch_size: int = 32,
         normalize: bool = True,
+        api_key: Optional[str] = None,
     ):
         """Initialize generator.
 
         Args:
-            model_name: Model name from Hugging Face
+            model_name: Model name from Hugging Face or Mistral
             cache_dir: Cache directory for embeddings
             batch_size: Batch size for encoding
             normalize: Whether to L2 normalize embeddings
+            api_key: API key for Mistral (optional)
         """
         self.model_name = model_name
         self.batch_size = batch_size
         self.normalize = normalize
+        self.api_key = api_key or os.environ.get("MISTRAL_API_KEY")
 
         # Setup cache
         if cache_dir:
@@ -41,10 +46,19 @@ class EmbeddingGenerator:
             self.cache_dir = None
 
         logger.info(f"Loading embedding model: {model_name}")
-        self.model = SentenceTransformer(model_name)
-        logger.info(
-            f"Model loaded, embedding dimension: {self.model.get_sentence_embedding_dimension()}"
-        )
+
+        if "mistral" in model_name.lower() and "e5" not in model_name.lower():
+            if not self.api_key:
+                raise ValueError("Mistral API key required for Mistral embeddings")
+            self.client = Mistral(api_key=self.api_key)
+            self.use_mistral = True
+            logger.info("Initialized Mistral API client")
+        else:
+            self.model = SentenceTransformer(model_name)
+            self.use_mistral = False
+            logger.info(
+                f"Model loaded, embedding dimension: {self.model.get_sentence_embedding_dimension()}"
+            )
 
     def _get_cache_key(self, text: str) -> str:
         """Generate cache key for text.
@@ -143,13 +157,31 @@ class EmbeddingGenerator:
                 texts_to_encode_processed = texts_to_encode
 
             # Encode in batches
-            new_embeddings = self.model.encode(
-                texts_to_encode_processed,
-                batch_size=self.batch_size,
-                show_progress_bar=len(texts_to_encode) > 100,
-                normalize_embeddings=self.normalize,
-                convert_to_numpy=True,
-            )
+            if self.use_mistral:
+                new_embeddings = []
+                # Process in batches manually for API
+                for i in range(0, len(texts_to_encode_processed), self.batch_size):
+                    batch = texts_to_encode_processed[i : i + self.batch_size]
+                    try:
+                        resp = self.client.embeddings.create(
+                            model=self.model_name,
+                            inputs=batch,
+                        )
+                        batch_embeddings = [d.embedding for d in resp.data]
+                        new_embeddings.extend(batch_embeddings)
+                    except Exception as e:
+                        logger.error(f"Error calling Mistral API: {e}")
+                        # Fallback or raise? Raise seems appropriate
+                        raise e
+                new_embeddings = np.array(new_embeddings)
+            else:
+                new_embeddings = self.model.encode(
+                    texts_to_encode_processed,
+                    batch_size=self.batch_size,
+                    show_progress_bar=len(texts_to_encode) > 100,
+                    normalize_embeddings=self.normalize,
+                    convert_to_numpy=True,
+                )
 
             # Save to cache and add to results
             for i, emb in enumerate(new_embeddings):
@@ -185,16 +217,25 @@ class EmbeddingGenerator:
         if "e5" in self.model_name.lower():
             query = f"query: {query}"
 
-        embedding = self.model.encode(
-            [query],
-            batch_size=1,
-            normalize_embeddings=self.normalize,
-            convert_to_numpy=True,
-        )
+        if self.use_mistral:
+            resp = self.client.embeddings.create(
+                model=self.model_name,
+                inputs=[query],
+            )
+            embedding = np.array(resp.data[0].embedding)
+        else:
+            embedding = self.model.encode(
+                [query],
+                batch_size=1,
+                normalize_embeddings=self.normalize,
+                convert_to_numpy=True,
+            )[0]
 
-        return embedding[0]
+        return embedding
 
     @property
     def dimension(self) -> int:
         """Get embedding dimension."""
+        if self.use_mistral:
+            return 1024  # mistral-embed dimension
         return self.model.get_sentence_embedding_dimension()

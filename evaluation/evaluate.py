@@ -50,6 +50,7 @@ def initialize_pipeline():
     embedding_generator = EmbeddingGenerator(
         model_name=settings.embedding_model,
         cache_dir=Path(settings.embedding_cache_dir),
+        api_key=settings.mistral_api_key,
     )
 
     # Initialize index manager
@@ -156,7 +157,7 @@ def evaluate_rag_system():
 
     # Run queries
     for i, item in enumerate(qa_pairs):
-        logger.info(f"Processing question {i+1}/{len(qa_pairs)}: {item['question']}")
+        logger.info(f"Processing question {i + 1}/{len(qa_pairs)}: {item['question']}")
         try:
             result = pipeline.query(item["question"])
             results.append(result)

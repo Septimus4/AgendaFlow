@@ -83,6 +83,12 @@ async def startup_event():
     # Load settings
     state.settings = get_settings()
 
+    # Set HF_TOKEN if provided
+    if state.settings.hf_token:
+        import os
+
+        os.environ["HF_TOKEN"] = state.settings.hf_token
+
     # Initialize embedding generator
     logger.info("Initializing embedding generator...")
     state.embedding_generator = EmbeddingGenerator(
@@ -90,6 +96,7 @@ async def startup_event():
         cache_dir=Path(state.settings.embedding_cache_dir),
         batch_size=32,
         normalize=True,
+        api_key=state.settings.mistral_api_key,
     )
 
     # Initialize index manager

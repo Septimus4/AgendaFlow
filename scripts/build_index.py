@@ -26,6 +26,12 @@ def main():
     # Load settings
     settings = get_settings()
 
+    # Set HF_TOKEN if provided
+    if settings.hf_token:
+        import os
+
+        os.environ["HF_TOKEN"] = settings.hf_token
+
     # Initialize loader
     logger.info("Initializing event loader...")
     loader = EventLoader(
@@ -57,6 +63,7 @@ def main():
         cache_dir=Path(settings.embedding_cache_dir),
         batch_size=32,
         normalize=True,
+        api_key=settings.mistral_api_key,
     )
 
     # Initialize index manager

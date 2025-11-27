@@ -7,11 +7,23 @@ from pydantic import BaseModel, Field
 class AskRequest(BaseModel):
     """Request model for /ask endpoint."""
 
-    question: str = Field(..., description="User question about events", examples=["Que faire ce week-end ?", "Concerts de jazz gratuits"])
-    from_date: Optional[str] = Field(None, description="Start date filter (ISO format)", examples=["2025-12-01T00:00:00"])
-    to_date: Optional[str] = Field(None, description="End date filter (ISO format)", examples=["2025-12-31T23:59:59"])
-    category: Optional[str] = Field(None, description="Category filter", examples=["concert", "exposition"])
-    price: Optional[str] = Field(None, description="Price constraint (free, cheap)", examples=["free"])
+    question: str = Field(
+        ...,
+        description="User question about events",
+        examples=["Que faire ce week-end ?", "Concerts de jazz gratuits"],
+    )
+    from_date: Optional[str] = Field(
+        None, description="Start date filter (ISO format)", examples=["2025-12-01T00:00:00"]
+    )
+    to_date: Optional[str] = Field(
+        None, description="End date filter (ISO format)", examples=["2025-12-31T23:59:59"]
+    )
+    category: Optional[str] = Field(
+        None, description="Category filter", examples=["concert", "exposition"]
+    )
+    price: Optional[str] = Field(
+        None, description="Price constraint (free, cheap)", examples=["free"]
+    )
     arrondissement: Optional[int] = Field(
         None, ge=1, le=20, description="Paris arrondissement (1-20)", examples=[11]
     )

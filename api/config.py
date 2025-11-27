@@ -9,6 +9,7 @@ class Settings(BaseSettings):
     # API Keys
     mistral_api_key: str
     openagenda_api_key: str
+    hf_token: str = None
 
     # Service Configuration
     rag_model_name: str = "mistral-small-latest"
@@ -22,7 +23,7 @@ class Settings(BaseSettings):
     rebuild_token: str = "change_me_in_production"
 
     # Optional: Model overrides
-    embedding_model: str = "intfloat/multilingual-e5-base"
+    embedding_model: str = "mistral-embed"
     embedding_cache_dir: str = "data/embeddings_cache"
 
     # Optional: API Configuration

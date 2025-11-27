@@ -4,7 +4,6 @@ import unittest
 from unittest.mock import MagicMock, patch
 import numpy as np
 from langchain_core.documents import Document
-from datetime import datetime
 
 from rag.index.embeddings import EmbeddingGenerator
 from rag.pipeline.retriever import EventRetriever
@@ -61,9 +60,7 @@ class TestEventRetriever(unittest.TestCase):
         """Setup test fixtures."""
         self.mock_index_manager = MagicMock()
         self.retriever = EventRetriever(
-            index_manager=self.mock_index_manager,
-            k_initial=10,
-            k_final=5
+            index_manager=self.mock_index_manager, k_initial=10, k_final=5
         )
 
     def test_filter_by_metadata(self):
@@ -76,17 +73,17 @@ class TestEventRetriever(unittest.TestCase):
                     "city": "Paris",
                     "start_datetime": "2025-01-01T10:00:00",
                     "is_free": True,
-                    "arrondissement": "11e"
-                }
+                    "arrondissement": "11e",
+                },
             ),
             Document(
                 page_content="doc2",
                 metadata={
                     "city": "Lyon",
                     "start_datetime": "2025-01-01T10:00:00",
-                    "is_free": False
-                }
-            )
+                    "is_free": False,
+                },
+            ),
         ]
 
         # Test city filter
@@ -104,12 +101,14 @@ class TestEventRetriever(unittest.TestCase):
         # Setup mock results
         mock_docs = [
             (Document(page_content="doc1", metadata={"city": "Paris"}), 0.9),
-            (Document(page_content="doc2", metadata={"city": "Paris"}), 0.8)
+            (Document(page_content="doc2", metadata={"city": "Paris"}), 0.8),
         ]
         self.mock_index_manager.search.return_value = mock_docs
-        
+
         # Mock embedding generator for MMR
-        self.mock_index_manager.embedding_generator.embed_texts.return_value = np.array([[0.1], [0.2]])
+        self.mock_index_manager.embedding_generator.embed_texts.return_value = np.array(
+            [[0.1], [0.2]]
+        )
         self.mock_index_manager.embedding_generator.embed_query.return_value = np.array([0.15])
 
         # Test retrieve
@@ -144,8 +143,8 @@ class TestAnswerGenerator(unittest.TestCase):
                     "title": "Event 1",
                     "start_datetime": "2025-01-01T20:00:00",
                     "venue_name": "Venue 1",
-                    "city": "Paris"
-                }
+                    "city": "Paris",
+                },
             )
         ]
 
@@ -161,11 +160,12 @@ class TestAnswerGenerator(unittest.TestCase):
     def test_generate_no_docs(self):
         """Test generation with no documents."""
         generator = AnswerGenerator(api_key="test-key")
-        
+
         result = generator.generate("query", [])
-        
+
         self.assertIn("Je n'ai pas trouvé d'événements", result["answer"])
         self.assertEqual(len(result["events"]), 0)
+
 
 if __name__ == "__main__":
     unittest.main()
