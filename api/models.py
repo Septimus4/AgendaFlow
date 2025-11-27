@@ -7,28 +7,28 @@ from pydantic import BaseModel, Field
 class AskRequest(BaseModel):
     """Request model for /ask endpoint."""
 
-    question: str = Field(..., description="User question about events")
-    from_date: Optional[str] = Field(None, description="Start date filter (ISO format)")
-    to_date: Optional[str] = Field(None, description="End date filter (ISO format)")
-    category: Optional[str] = Field(None, description="Category filter")
-    price: Optional[str] = Field(None, description="Price constraint (free, cheap)")
+    question: str = Field(..., description="User question about events", examples=["Que faire ce week-end ?", "Concerts de jazz gratuits"])
+    from_date: Optional[str] = Field(None, description="Start date filter (ISO format)", examples=["2025-12-01T00:00:00"])
+    to_date: Optional[str] = Field(None, description="End date filter (ISO format)", examples=["2025-12-31T23:59:59"])
+    category: Optional[str] = Field(None, description="Category filter", examples=["concert", "exposition"])
+    price: Optional[str] = Field(None, description="Price constraint (free, cheap)", examples=["free"])
     arrondissement: Optional[int] = Field(
-        None, ge=1, le=20, description="Paris arrondissement (1-20)"
+        None, ge=1, le=20, description="Paris arrondissement (1-20)", examples=[11]
     )
-    language: Optional[str] = Field(None, description="Response language (fr, en)")
+    language: Optional[str] = Field(None, description="Response language (fr, en)", examples=["fr"])
 
 
 class Event(BaseModel):
     """Event information in response."""
 
-    title: Optional[str] = None
-    start_datetime: Optional[str] = None
-    venue_name: Optional[str] = None
-    city: Optional[str] = None
-    arrondissement: Optional[str] = None
-    price: Optional[str] = None
-    url: Optional[str] = None
-    categories: List[str] = Field(default_factory=list)
+    title: Optional[str] = Field(None, examples=["Jazz à la Villette"])
+    start_datetime: Optional[str] = Field(None, examples=["2025-09-04T20:00:00"])
+    venue_name: Optional[str] = Field(None, examples=["Philharmonie de Paris"])
+    city: Optional[str] = Field(None, examples=["Paris"])
+    arrondissement: Optional[str] = Field(None, examples=["19e"])
+    price: Optional[str] = Field(None, examples=["30€"])
+    url: Optional[str] = Field(None, examples=["https://openagenda.com/event/123"])
+    categories: List[str] = Field(default_factory=list, examples=[["Concert", "Jazz"]])
 
 
 class AskResponse(BaseModel):
