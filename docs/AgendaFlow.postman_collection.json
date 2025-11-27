@@ -1,0 +1,180 @@
+{
+	"info": {
+		"_postman_id": "b6a8c7d9-1234-5678-9abc-def012345678",
+		"name": "AgendaFlow",
+		"description": "Collection for testing and demonstrating the AgendaFlow RAG service API.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Health Check",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/health",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"health"
+					]
+				},
+				"description": "Check the health status of the service and the index."
+			},
+			"response": []
+		},
+		{
+			"name": "Metrics",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/metrics",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"metrics"
+					]
+				},
+				"description": "Get Prometheus metrics."
+			},
+			"response": []
+		},
+		{
+			"name": "Ask Question (Simple)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"question\": \"Quels événements à Paris ce week-end ?\"\n}"
+				},
+				"url": {
+					"raw": "{{base_url}}/ask",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"ask"
+					]
+				},
+				"description": "Ask a simple natural language question."
+			},
+			"response": []
+		},
+		{
+			"name": "Ask Question (With Filters)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"question\": \"Concerts de jazz gratuits\",\n    \"category\": \"music\",\n    \"price\": \"free\",\n    \"arrondissement\": 4\n}"
+				},
+				"url": {
+					"raw": "{{base_url}}/ask",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"ask"
+					]
+				},
+				"description": "Ask a question with explicit filters for category, price, and location."
+			},
+			"response": []
+		},
+		{
+			"name": "Ask Question (English)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"question\": \"What can I do with kids today?\",\n    \"category\": \"kids\",\n    \"language\": \"en\"\n}"
+				},
+				"url": {
+					"raw": "{{base_url}}/ask",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"ask"
+					]
+				},
+				"description": "Ask a question in English and request an English response."
+			},
+			"response": []
+		},
+		{
+			"name": "Rebuild Index",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{rebuild_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"mode\": \"full\"\n}"
+				},
+				"url": {
+					"raw": "{{base_url}}/rebuild",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"rebuild"
+					]
+				},
+				"description": "Trigger a full rebuild of the event index. Requires authentication."
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:8000",
+			"type": "string"
+		},
+		{
+			"key": "rebuild_token",
+			"value": "your_secure_token_here",
+			"type": "string"
+		}
+	]
+}
