@@ -1,0 +1,117 @@
+# AgendaFlow Configuration
+
+# Data Source Configuration
+data_source:
+  primary: "openagenda"
+  city: "Paris"
+  country: "France"
+  
+  # OpenAgenda API Configuration
+  openagenda:
+    mode: "agenda"  # agenda | transverse | fallback_odsd
+    base_url: "https://api.openagenda.com/v2"
+    time_window_days_past: 365
+    time_window_days_future: 180
+    page_size: 300
+    rate_limit_requests_per_minute: 60
+    
+  # Opendatasoft Fallback Configuration
+  opendatasoft:
+    base_url: "https://public.opendatasoft.com/api/records/1.0"
+    dataset_id: "evenements-publics-openagenda"
+    rows_per_page: 100
+
+# Embedding Configuration
+embeddings:
+  model_name: "intfloat/multilingual-e5-base"
+  dimension: 768
+  batch_size: 32
+  cache_dir: "data/embeddings_cache"
+  normalize: true
+
+# FAISS Index Configuration
+index:
+  type: "IndexHNSWFlat"
+  metric: "L2"
+  hnsw_m: 32
+  hnsw_ef_construction: 200
+  hnsw_ef_search: 64
+  persist_path: "data/index/faiss"
+
+# Chunking Configuration
+chunking:
+  strategy: "event_as_document"  # Most events are short
+  max_chunk_size: 1000
+  target_chunk_size: 400
+  chunk_overlap: 80
+
+# Retrieval Configuration
+retrieval:
+  k_initial: 12
+  k_final: 5
+  mmr_diversity: 0.3
+  metadata_filters:
+    - city
+    - date_range
+    - category
+    - price
+
+# LLM Configuration
+llm:
+  provider: "mistral"
+  model_name: "mistral-small-latest"
+  temperature: 0.2
+  max_tokens: 1000
+  timeout_seconds: 4
+
+# Query Processing Configuration
+query_processing:
+  default_language: "fr"
+  supported_languages: ["fr", "en"]
+  temporal_parser:
+    timezone: "Europe/Paris"
+  categories:
+    - music
+    - theater
+    - exhibition
+    - kids
+    - festival
+    - cinema
+    - dance
+    - literature
+    - workshop
+
+# Service Configuration
+service:
+  host: "0.0.0.0"
+  port: 8000
+  workers: 1
+  log_level: "info"
+  
+  # Timeouts
+  retrieval_timeout: 2.0
+  generation_timeout: 4.0
+  total_timeout: 6.0
+  
+  # Rate Limiting
+  max_requests_per_minute: 30
+
+# Evaluation Configuration
+evaluation:
+  ragas_metrics:
+    - answer_relevancy
+    - faithfulness
+    - context_precision
+    - context_recall
+  thresholds:
+    answer_relevancy: 0.6
+    faithfulness: 0.6
+    context_precision: 0.5
+    context_recall: 0.5
+  test_set_path: "evaluation/qa.jsonl"
+
+# Data Management
+data_management:
+  rebuild_mode: "incremental"  # full | incremental
+  rebuild_interval_hours: 6
+  retention_days: 365
