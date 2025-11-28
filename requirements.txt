@@ -10,9 +10,10 @@ langchain>=0.1.0
 langchain-core>=0.1.0
 langchain-community>=0.0.20
 langchain-mistralai>=0.0.5
-mistralai>=0.1.0
+mistralai>=1.0.0
 
 # Vector Store and Embeddings
+huggingface_hub>=0.34.0
 faiss-cpu>=1.8.0
 sentence-transformers>=2.2.0
 transformers>=4.35.0
