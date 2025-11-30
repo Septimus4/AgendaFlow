@@ -32,17 +32,17 @@ class Settings(BaseSettings):
     api_workers: int = 1
 
     # Optional: Retrieval Configuration
-    k_initial: int = 12
-    k_final: int = 5
+    k_initial: int = 60
+    k_final: int = 10
     mmr_diversity: float = 0.3
 
     # Optional: Rate Limiting
     max_requests_per_minute: int = 30
 
     # Timeouts
-    retrieval_timeout: float = 2.0
-    generation_timeout: float = 4.0
-    total_timeout: float = 6.0
+    retrieval_timeout: float = 5.0
+    generation_timeout: float = 30.0
+    total_timeout: float = 40.0
 
     class Config:
         """Pydantic config."""

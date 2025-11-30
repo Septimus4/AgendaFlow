@@ -37,11 +37,16 @@ def generate_dataset():
         venue = event["venue_name"]
         start_dt = event["start_datetime"]
         try:
-            dt = datetime.fromisoformat(start_dt)
+            if isinstance(start_dt, str):
+                dt = datetime.fromisoformat(start_dt)
+            else:
+                # Assume it's a pandas Timestamp or datetime object
+                dt = start_dt
+
             date_str = dt.strftime("%Y-%m-%d")
             time_str = dt.strftime("%H:%M")
-        except (ValueError, TypeError):
-            date_str = start_dt
+        except (ValueError, TypeError, AttributeError):
+            date_str = str(start_dt)
             time_str = ""
 
         # Question 1: Location

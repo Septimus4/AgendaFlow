@@ -23,11 +23,11 @@ test-cov: ## Run tests with coverage
 	pytest tests/ -v --tb=short --cov=rag --cov=api --cov-report=html --cov-report=term
 
 lint: ## Run linters
-	ruff check .
+	python3 -m ruff check .
 
 format: ## Format code
-	black .
-	ruff check . --fix
+	python3 -m black .
+	python3 -m ruff check . --fix
 
 clean: ## Clean build artifacts and cache
 	find . -type d -name "__pycache__" -exec rm -rf {} + 2>/dev/null || true

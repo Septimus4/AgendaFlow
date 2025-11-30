@@ -1,227 +1,227 @@
 {
   "total_questions": 31,
   "metrics": {
-    "semantic_similarity": 0.8098807815582522,
-    "response_coverage_rate": 0.41935483870967744,
-    "satisfaction_score": 0.6608345843275133
+    "semantic_similarity": 0.8234551068275205,
+    "response_coverage_rate": 0.8064516129032258,
+    "satisfaction_score": 0.7364488437363411
   },
   "results": [
     {
-      "question": "Where is the event 'Mozart, l'\u0153uvre sacr\u00e9e : V\u00eapres solennelles d\u2019un confesseur' taking place?",
-      "ground_truth": "The event 'Mozart, l'\u0153uvre sacr\u00e9e : V\u00eapres solennelles d\u2019un confesseur' is taking place at Coll\u00e8ge des Bernardins.",
-      "generated_answer": "Je n'ai pas trouv\u00e9 d'\u00e9v\u00e9nements correspondant \u00e0 vos crit\u00e8res. Essayez d'\u00e9largir votre recherche ou d'ajuster la p\u00e9riode.",
-      "similarity": 0.770843505859375,
-      "satisfaction": 0.5627417529296875
+      "question": "Where is the event 'R\u00e9cital de No\u00ebl et du Nouvel An' taking place?",
+      "ground_truth": "The event 'R\u00e9cital de No\u00ebl et du Nouvel An' is taking place at \u00c9glise de La Madeleine.",
+      "generated_answer": "Le r\u00e9cital \"R\u00e9cital de No\u00ebl et du Nouvel An\" se d\u00e9roulera \u00e0 l'\u00c9glise de La Madeleine, Paris (8e) le dimanche 04 janvier 2026 \u00e0 16h00.\n\nVoici quelques autres \u00e9v\u00e9nements de No\u00ebl et du Nouvel An \u00e0 Paris qui pourraient vous int\u00e9resser :\n\n**\u00c9v\u00e9nements de No\u00ebl :**\n\n- **Concert de No\u00ebl**\n  - Date : Mardi 16 d\u00e9cembre 2025, 20:30\n  - Lieu : Cath\u00e9drale Notre-Dame de Paris, Paris (4e)\n  - Prix : Gratuit\n  - Plus d'informations : [Cath\u00e9drale Notre-Dame de Paris](https://www.notredamedeparis.fr)\n\n- **F\u00eate de la saint Nicolas**\n  - Date : Samedi 06 d\u00e9cembre 2025, 11:00\n  - Lieu : Saint-Pierre de Montmartre, Paris (18e)\n  - Prix : Gratuit\n  - Plus d'informations : [Saint-Pierre de Montmartre](https://www.saintpierrede montmartre.fr)\n\n- **Concert de No\u00ebl de la Mini-Hosanna**\n  - Date : Dimanche 14 d\u00e9cembre 2025, 16:30\n  - Lieu : \u00c9glise Notre-Dame de l'Arche d'Alliance, Paris (15e)\n  - Prix : Gratuit\n  - Plus d'informations : [\u00c9glise Notre-Dame de l'Arche d'Alliance](https://www.arche-d-alliance.fr)\n\n- **Concert de No\u00ebl**\n  - Date : Samedi 13 d\u00e9cembre 2025, 15:00\n  - Lieu : Notre Dame de Gr\u00e2ce de Passy, Paris (16e)\n  - Prix : Gratuit\n  - Plus d'informations : [Notre Dame de Gr\u00e2ce de Passy](https://www.ndgpassy.fr)\n\n**\u00c9v\u00e9nements du Nouvel An :**\n\n- **Nouvel an - Solennit\u00e9 de Marie M\u00e8re de Dieu**\n  - Date : Mercredi 31 d\u00e9cembre 2025, 18:30\n  - Lieu : Eglise Saint-Gervais, Paris (4e)\n  - Prix : Gratuit\n  - Plus d'informations : [Eglise Saint-Gervais](https://www.saintgervais.org)\n\n- **Concert du Nouvel An autour des Valses de Johann Strauss**\n  - Date : Jeudi 01 janvier 2026, 19:00\n  - Lieu : \u00c9glise de La Madeleine, Paris (8e)\n  - Prix : Gratuit\n  - Plus d'informations : [\u00c9glise de La Madeleine](https://lamadeleineparis.fr/event/concert-du-nouvel-an-autour-des-valses-de-johann-strauss/)",
+      "similarity": 0.8875643610954285,
+      "satisfaction": 0.7437821805477143
     },
     {
-      "question": "When is 'Mozart, l'\u0153uvre sacr\u00e9e : V\u00eapres solennelles d\u2019un confesseur' scheduled?",
-      "ground_truth": "'Mozart, l'\u0153uvre sacr\u00e9e : V\u00eapres solennelles d\u2019un confesseur' is scheduled for 2025-12-10 18:30:00+00:00 at .",
-      "generated_answer": "Je n'ai pas trouv\u00e9 d'\u00e9v\u00e9nements correspondant \u00e0 vos crit\u00e8res. Essayez d'\u00e9largir votre recherche ou d'ajuster la p\u00e9riode.",
-      "similarity": 0.724764883518219,
-      "satisfaction": 0.5557024417591095
+      "question": "When is 'R\u00e9cital de No\u00ebl et du Nouvel An' scheduled?",
+      "ground_truth": "'R\u00e9cital de No\u00ebl et du Nouvel An' is scheduled for 2026-01-04 at 15:00.",
+      "generated_answer": "Le \"R\u00e9cital de No\u00ebl et du Nouvel An\" est pr\u00e9vu pour le dimanche 04 janvier 2026 \u00e0 16h00 \u00e0 l'\u00c9glise de La Madeleine, Paris (8e). Voici les d\u00e9tails :\n\n- **Titre** : R\u00e9cital de No\u00ebl et du Nouvel An\n- **Date** : Dimanche 04 janvier 2026, 16:00\n- **Lieu** : \u00c9glise de La Madeleine, Paris (8e)\n- **Prix** : Gratuit\n- **URL** : [Informations](https://lamadeleineparis.fr/event/recital-de-noel-et-du-nouvel-an-par-olivier-perin/)\n\nSi vous souhaitez d'autres \u00e9v\u00e9nements similaires, voici quelques suggestions :\n\n### \u00c9v\u00e9nements de No\u00ebl\n\n- **Concert de No\u00ebl**\n  - **Date** : Mardi 16 d\u00e9cembre 2025, 20:30\n  - **Lieu** : Cath\u00e9drale Notre-Dame de Paris, Paris (4e)\n  - **Prix** : Gratuit\n\n- **Concert de No\u00ebl de la Mini-Hosanna**\n  - **Date** : Dimanche 14 d\u00e9cembre 2025, 16:30\n  - **Lieu** : \u00c9glise Notre-Dame de l'Arche d'Alliance, Paris (15e)\n  - **Prix** : Gratuit\n\n- **Concert de No\u00ebl**\n  - **Date** : Samedi 13 d\u00e9cembre 2025, 15:00\n  - **Lieu** : Notre Dame de Gr\u00e2ce de Passy, Paris (16e)\n  - **Prix** : Gratuit\n\n### \u00c9v\u00e9nements de Nouvel An\n\n- **Nouvel an - Solennit\u00e9 de Marie M\u00e8re de Dieu**\n  - **Date** : Mercredi 31 d\u00e9cembre 2025, 18:30\n  - **Lieu** : Eglise Saint-Gervais, Paris (4e)\n  - **Prix** : Gratuit\n\nSi aucun de ces \u00e9v\u00e9nements ne correspond \u00e0 vos attentes, n'h\u00e9sitez pas \u00e0 me le faire savoir pour que je puisse vous aider davantage.",
+      "similarity": 0.8960613012313843,
+      "satisfaction": 0.8076706506156922
     },
     {
-      "question": "Is the event 'Mozart, l'\u0153uvre sacr\u00e9e : V\u00eapres solennelles d\u2019un confesseur' free?",
+      "question": "Is the event 'R\u00e9cital de No\u00ebl et du Nouvel An' free?",
       "ground_truth": "The event is paid.",
-      "generated_answer": "Je n'ai pas trouv\u00e9 d'\u00e9v\u00e9nements correspondant \u00e0 vos crit\u00e8res. Essayez d'\u00e9largir votre recherche ou d'ajuster la p\u00e9riode.",
-      "similarity": 0.7324193120002747,
-      "satisfaction": 0.5598496560001374
-    },
-    {
-      "question": "Where is the event 'Retraite de Car\u00eame dans Paris - 2026' taking place?",
-      "ground_truth": "The event 'Retraite de Car\u00eame dans Paris - 2026' is taking place at Eglise Saint-Gervais.",
-      "generated_answer": "The event \"Retraite de Car\u00eame dans Paris - 2026\" is taking place at **Eglise Saint-Gervais, Paris (4e)** on **Saturday 07 March 2026, 08:00**. It is free to attend.\n\nIf you're interested in similar events, you might also consider:\n\n**Religious Events at \u00c9glise Saint-Gervais (4e):**\n- **Mercredi des Cendres** on Wednesday 18 February 2026, 00:00 at \u00c9glise Saint-Gervais, Paris (4e). Price: None.\n\n**Concerts at \u00c9glise Saint-Marcel (13e):**\n- **Concert Ondes Plurielles** on Saturday 07 February 2026, 20:30 at \u00c9glise Saint-Marcel, Paris (13e). Price: Free.\n- **Concert COGE** on Sunday 22 March 2026, 17:00 at \u00c9glise Saint-Marcel, Paris (13e). Price: None.",
-      "similarity": 0.9368400573730469,
-      "satisfaction": 0.8495800286865235
-    },
-    {
-      "question": "When is 'Retraite de Car\u00eame dans Paris - 2026' scheduled?",
-      "ground_truth": "'Retraite de Car\u00eame dans Paris - 2026' is scheduled for 2026-03-07 07:00:00+00:00 at .",
-      "generated_answer": "La \"Retraite de Car\u00eame dans Paris - 2026\" est pr\u00e9vue pour le samedi 7 mars 2026 \u00e0 8h00 \u00e0 l'\u00c9glise Saint-Gervais, Paris (4e). C'est un \u00e9v\u00e9nement gratuit.\n\nSi vous souhaitez d'autres \u00e9v\u00e9nements religieux ou spirituels, voici quelques suggestions :\n\n- **Solennit\u00e9 de l'\u00c9piphanie**\n  - Date : Samedi 3 janvier 2026, 18h30\n  - Lieu : \u00c9glise Saint-Gervais, Paris (4e)\n  - Prix : Gratuit\n\n- **Mercredi des Cendres**\n  - Date : Mercredi 18 f\u00e9vrier 2026\n  - Lieu : \u00c9glise Saint-Gervais, Paris (4e)\n  - Prix : Gratuit\n\n- **Pause au monast\u00e8re chez les s\u0153urs \u00e0 Paris**\n  - Date : Samedi 29 novembre 2025, 8h00\n  - Lieu : Fraternit\u00e9 monastique des s\u0153urs de J\u00e9rusalem \u00e0 Paris, Paris (4e)\n  - Prix : Gratuit\n\nPour plus de d\u00e9tails, vous pouvez consulter les liens suivants :\n- [Retraite de Car\u00eame dans Paris - 2026](URL)\n- [Solennit\u00e9 de l'\u00c9piphanie](URL)\n- [Mercredi des Cendres](URL)\n- [Pause au monast\u00e8re chez les s\u0153urs \u00e0 Paris](URL)",
-      "similarity": 0.879801332950592,
-      "satisfaction": 0.795700666475296
-    },
-    {
-      "question": "Is the event 'Retraite de Car\u00eame dans Paris - 2026' free?",
-      "ground_truth": "The event is paid.",
-      "generated_answer": "Je n'ai pas trouv\u00e9 d'\u00e9v\u00e9nements correspondant \u00e0 vos crit\u00e8res. Essayez d'\u00e9largir votre recherche ou d'ajuster la p\u00e9riode.",
-      "similarity": 0.7324193120002747,
-      "satisfaction": 0.5603296560001374
+      "generated_answer": "L'\u00e9v\u00e9nement \"R\u00e9cital de No\u00ebl et du Nouvel An\" n'a pas de prix mentionn\u00e9, ce qui signifie qu'il est probablement gratuit. Voici quelques autres \u00e9v\u00e9nements de No\u00ebl \u00e0 Paris qui pourraient vous int\u00e9resser :\n\n### \u00c9v\u00e9nements de No\u00ebl\n\n1. **Illuminations de No\u00ebl aux Bernardins**\n   - **Date** : Mercredi 10 d\u00e9cembre 2025, 17:30\n   - **Lieu** : Coll\u00e8ge des Bernardins, Paris (5e)\n   - **Prix** : Gratuit\n   - **Description** : Un temps convivial et chaleureux pour entrer dans l\u2019Avent au son des chants de No\u00ebl du ch\u0153ur des enfants.\n   - **URL** : [Informations](https://www.bernardins.fr)\n\n2. **Concert de No\u00ebl de la Mini-Hosanna**\n   - **Date** : Dimanche 14 d\u00e9cembre 2025, 16:30\n   - **Lieu** : \u00c9glise Notre-Dame de l'Arche d'Alliance, Paris (15e)\n   - **Prix** : Gratuit\n   - **Description** : Sous la direction de Servane Teyssier d'Orfeuil.\n   - **URL** : [Informations](https://www.eglise-archalliance.fr)\n\n3. **Concert de No\u00ebl**\n   - **Date** : Mardi 16 d\u00e9cembre 2025, 20:30\n   - **Lieu** : Cath\u00e9drale Notre-Dame de Paris, Paris (4e)\n   - **Prix** : Non sp\u00e9cifi\u00e9\n   - **Description** : La musique de No\u00ebl, telle que les si\u00e8cles jusqu\u2019\u00e0 nous l\u2019ont con\u00e7ue en faisant parler les anges.\n   - **URL** : [Informations](https://www.cathedrale-paris.fr)\n\n4. **Go\u00fbter festif de No\u00ebl**\n   - **Date** : Jeudi 25 d\u00e9cembre 2025, 16:00\n   - **Lieu** : \u00c9glise Saint-Fran\u00e7ois d'Assise, Paris (19e)\n   - **Prix** : Non sp\u00e9cifi\u00e9\n   - **Description** : Toutes les personnes isol\u00e9es sont les bienvenues en ce jour de No\u00ebl pour partager un go\u00fbter.\n   - **URL** : [Informations](https://www.eglise-st-francois-assise.fr)\n\nSi vous avez besoin de plus d'informations ou d'autres recommandations, n'h\u00e9sitez pas \u00e0 demander !",
+      "similarity": 0.7353109121322632,
+      "satisfaction": 0.6676554560661316
     },
     {
       "question": "Where is the event 'Flaubert : Trois Contes - Voyage dans l'imaginaire' taking place?",
       "ground_truth": "The event 'Flaubert : Trois Contes - Voyage dans l'imaginaire' is taking place at Coll\u00e8ge des Bernardins.",
-      "generated_answer": "The event \"Flaubert : Trois Contes - Voyage dans l'imaginaire\" is taking place at the Coll\u00e8ge des Bernardins in the 5th arrondissement of Paris.\n\nHere are the details:\n- **Title:** Flaubert : Trois Contes - Voyage dans l'imaginaire\n- **Date:** Monday, 08 December 2025, 12:45\n- **Venue:** Coll\u00e8ge des Bernardins, Paris (5e)\n- **Price:** Free\n- **URL:** Not provided\n\nIf you're interested in similar events at the same venue, you might also consider:\n- **Title:** La L\u00e9gende des H\u00e9ros \u201cUlysse\u201d\n  - **Date:** Wednesday, 03 December 2025, 15:00\n  - **Venue:** Coll\u00e8ge des Bernardins, Paris (5e)\n  - **Price:** Free\n\n- **Title:** Banquet philo \u201cPeut-on \u00e9chapper \u00e0 la b\u00eatise ?\u201d\n  - **Date:** Saturday, 29 November 2025, 16:30\n  - **Venue:** Coll\u00e8ge des Bernardins, Paris (5e)\n  - **Price:** Free",
-      "similarity": 0.9332860708236694,
-      "satisfaction": 0.8199630354118348
+      "generated_answer": "The event \"Flaubert : Trois Contes - Voyage dans l'imaginaire\" is taking place at the Coll\u00e8ge des Bernardins, Paris (5e) on Monday, December 8, 2025, at 12:45.",
+      "similarity": 0.9579136371612549,
+      "satisfaction": 0.7789568185806275
     },
     {
       "question": "When is 'Flaubert : Trois Contes - Voyage dans l'imaginaire' scheduled?",
-      "ground_truth": "'Flaubert : Trois Contes - Voyage dans l'imaginaire' is scheduled for 2025-12-08 11:45:00+00:00 at .",
-      "generated_answer": "The event \"Flaubert : Trois Contes - Voyage dans l'imaginaire\" is scheduled for Monday, December 8, 2025, at 12:45 PM at Coll\u00e8ge des Bernardins in the 5th arrondissement of Paris. Here are some other events you might find interesting:\n\n**Literary and Philosophical Events:**\n1. **Banquet philo \u201cPeut-on \u00e9chapper \u00e0 la b\u00eatise ?\u201d**\n   - Date: Saturday, November 29, 2025, 4:30 PM\n   - Venue: Coll\u00e8ge des Bernardins, Paris (5e)\n   - Price: None\n   - URL: [Link](https://www.collegedesbernardins.fr)\n\n**Musical Events:**\n1. **Shruti - Un voyage en musique au coeur des grands textes sacr\u00e9s de l'hindouisme**\n   - Date: Sunday, December 14, 2025, 3:00 PM\n   - Venue: Th\u00e9\u00e2tre Mandapa, Paris (13e)\n   - Price: None\n   - URL: [Link](https://www.theatremandapa.com)\n\n2. **Concert La Symphonie du Trocad\u00e9ro**\n   - Date: Friday, December 19, 2025, 8:30 PM\n   - Venue: \u00c9glise Saint-Marcel, Paris (13e)\n   - Price: None\n   - URL: [Link](https://www.eglisestmarcel.com)\n\n**Educational Events:**\n1. **Qui donc est l'homme ? Un trimestre de cours**\n   - Date: Monday, March 30, 2026, 2:00 PM\n   - Venue: Le Centre pour l'Intelligence de la Foi, Paris (7e)\n   - Price: None\n   - URL: [Link](https://www.cif-paris.org)\n\nIf you have any other preferences or need further assistance, feel free to ask!",
-      "similarity": 0.8805462718009949,
-      "satisfaction": 0.7402731359004975
+      "ground_truth": "'Flaubert : Trois Contes - Voyage dans l'imaginaire' is scheduled for 2025-12-08 at 11:45.",
+      "generated_answer": "The event \"Flaubert : Trois Contes - Voyage dans l'imaginaire\" is scheduled for Monday, December 8, 2025, at 12:45 PM at the Coll\u00e8ge des Bernardins in the 5th arrondissement of Paris. Here are some other literary and cultural events happening around the same time:\n\n1. **La skippeuse Violette Dorange signe \u00ab Mon premier Vend\u00e9e Globe, Carnet de bord \u00bb**\n   - Date: Tuesday, December 16, 2025, 5:30 PM\n   - Venue: Librairie de Paris, Paris (17e)\n   - Price: None\n   - Description: Meet the youngest skipper of the Vend\u00e9e Globe and get her book signed.\n\n2. **Bistrot litt\u00e9raire avec Claire Huynen et**\n   - Date: Wednesday, December 10, 2025, 12:30 PM\n   - Venue: Centre Wallonie-Bruxelles I Salle de th\u00e9\u00e2tre, Paris (4e)\n   - Price: Free\n   - Description: A literary bistro event featuring Claire Huynen and Antoine Wauters as part of the \"Lisez-vous le Belge ?\" cycle.\n\n3. **Shruti - Un voyage en musique au coeur des grands textes sacr\u00e9s de l'hindouisme**\n   - Date: Sunday, December 14, 2025, 3:00 PM\n   - Venue: Th\u00e9\u00e2tre Mandapa, Paris (13e)\n   - Price: None\n   - Description: A musical journey through the sacred texts of Hinduism.\n\n4. **La L\u00e9gende des H\u00e9ros \u201cUlysse\u201d**\n   - Date: Wednesday, December 3, 2025, 3:00 PM\n   - Venue: Coll\u00e8ge des Bernardins, Paris (5e)\n   - Price: None\n   - Description: A workshop for children to explore the myths and adventures of Ulysses.\n\n5. **Banquet philo \u201cPeut-on \u00e9chapper \u00e0 la b\u00eatise ?\u201d**\n   - Date: Saturday, November 29, 2025, 4:30 PM\n   - Venue: Coll\u00e8ge des Bernardins, Paris (5e)\n   - Price: None\n   - Description: A philosophical banquet to discuss and laugh about the ideas of authors and artists.",
+      "similarity": 0.8832810521125793,
+      "satisfaction": 0.7416405260562897
     },
     {
       "question": "Is the event 'Flaubert : Trois Contes - Voyage dans l'imaginaire' free?",
       "ground_truth": "The event is paid.",
+      "generated_answer": "L'\u00e9v\u00e9nement \"Flaubert : Trois Contes - Voyage dans l'imaginaire\" est gratuit, comme indiqu\u00e9 par le prix \"None\" dans les d\u00e9tails de l'\u00e9v\u00e9nement.\n\nVoici quelques autres \u00e9v\u00e9nements gratuits \u00e0 Paris qui pourraient vous int\u00e9resser :\n\n**\u00c9v\u00e9nements gratuits :**\n\n1. **Voix-l\u00e0 #2 : concert de B\u00e1ra Zmekov\u00e1**\n   - Date : Mercredi 10 d\u00e9cembre 2025, 20:00\n   - Lieu : Centre tch\u00e8que de Paris, Paris (6e)\n   - Prix : gratuit\n   - [Plus d'infos](https://www.centretcheque.fr/evenements/voix-la-2-concert-de-bara-zmekova)\n\n2. **P\u00e8lerinage anniversaire de la 1\u00e8re apparition de la Vierge \u00e0 Fatima**\n   - Date : Mardi 12 mai 2026, 21:00\n   - Lieu : Sanctuaire Notre-Dame de Fatima, Paris (19e)\n   - Prix : gratuit\n   - [Plus d'infos](https://www.fatima-paris.fr/evenements/pelerinage-anniversaire)\n\n3. **Les dialogues des Carm\u00e9lites**\n   - Date : Samedi 29 novembre 2025, 16:00\n   - Lieu : Eglise Sainte-Elisabeth de Hongrie, Paris (3e)\n   - Prix : gratuit\n   - [Plus d'infos](https://www.eglise-sainte-elisabeth.com/evenements/les-dialogues-des-carmelites)\n\n4. **\u00c0 la rencontre des plumes de la litt\u00e9rature jeunesse**\n   - Date : Jeudi 27 novembre 2025, 19:00\n   - Lieu : CENTRE CULTUREL COR\u00c9EN, Paris (8e)\n   - Prix : gratuit\n   - [Plus d'infos](https://www.culturecoreenne.fr/evenements/litterature-jeunesse)\n\n5. **Bistrot litt\u00e9raire avec Claire Huynen et Antoine Wauters**\n   - Date : Mercredi 10 d\u00e9cembre 2025, 12:30\n   - Lieu : Centre Wallonie-Bruxelles I Salle de th\u00e9\u00e2tre, Paris (4e)\n   - Prix : gratuit\n   - [Plus d'infos](https://www.wallonie-bruxelles.fr/evenements/bistrot-litteraire)\n\nSi vous avez besoin de plus d'informations ou d'autres recommandations, n'h\u00e9sitez pas \u00e0 demander !",
+      "similarity": 0.7346135377883911,
+      "satisfaction": 0.6673067688941956
+    },
+    {
+      "question": "Where is the event 'Conf\u00e9rence de l'Avent : \u201cLa mission des bergers et des mages pour aujourd'hui\u201d' taking place?",
+      "ground_truth": "The event 'Conf\u00e9rence de l'Avent : \u201cLa mission des bergers et des mages pour aujourd'hui\u201d' is taking place at Salle Saint-Joseph, paroisse Notre-Dame de Gr\u00e2ce de Passy.",
+      "generated_answer": "L'\u00e9v\u00e9nement \"Conf\u00e9rence de l'Avent : \u201cLa mission des bergers et des mages pour aujourd'hui\u201d\" n'est pas list\u00e9 dans les \u00e9v\u00e9nements disponibles. Cependant, voici quelques \u00e9v\u00e9nements pertinents qui pourraient vous int\u00e9resser :\n\n**\u00c9v\u00e9nements religieux et culturels le 30 novembre 2025 :**\n\n1. **L'Avent \u00e0 Notre-Dame de Bercy**\n   - Date : Dimanche 30 novembre 2025, 09:45\n   - Lieu : \u00c9glise Notre-Dame de Bercy, Paris (12e)\n   - Prix : Gratuit\n   - Description : Temps d'oraison guid\u00e9 par la Parole, autour de la cr\u00e8che.\n   - URL : [\u00c9glise Notre-Dame de Bercy](https://www.ndbercy.fr)\n\n2. **Concert de l'Avent**\n   - Date : Dimanche 30 novembre 2025, 15:30\n   - Lieu : \u00c9glise Notre-Dame des Champs, Paris (6e)\n   - Prix : Gratuit\n   - Description : Concert de l'Avent par le ch\u0153ur Canta Oraque.\n   - URL : [\u00c9glise Notre-Dame des Champs](https://www.ndchamps.fr)\n\n3. **Conf\u00e9rence \u00e0 l\u2019\u00e9cole des Saints \u2013 Saint Cur\u00e9 d\u2019Ars (II)**\n   - Date : Dimanche 30 novembre 2025, 17:00\n   - Lieu : \u00c9glise de La Madeleine, Paris (8e)\n   - Prix : Gratuit\n   - Description : Conf\u00e9rence sur Saint Cur\u00e9 d'Ars.\n   - URL : [\u00c9glise de La Madeleine](https://lamadeleineparis.fr/event/conference-a-lecole-des-saints-saint-cure-dars-ii/)\n\n4. **Premier dimanche de l\u2019Avent**\n   - Date : Dimanche 30 novembre 2025, 10:30\n   - Lieu : \u00c9glise Notre-Dame du Bon Conseil, Paris (18e)\n   - Prix : Gratuit\n   - Description : Messe du Premier dimanche de l'Avent.\n   - URL : [\u00c9glise Notre-Dame du Bon Conseil](https://www.ndbonconseil.fr)\n\nCes \u00e9v\u00e9nements pourraient vous offrir une exp\u00e9rience similaire \u00e0 celle que vous recherchez.",
+      "similarity": 0.8791631460189819,
+      "satisfaction": 0.814381573009491
+    },
+    {
+      "question": "When is 'Conf\u00e9rence de l'Avent : \u201cLa mission des bergers et des mages pour aujourd'hui\u201d' scheduled?",
+      "ground_truth": "'Conf\u00e9rence de l'Avent : \u201cLa mission des bergers et des mages pour aujourd'hui\u201d' is scheduled for 2025-12-11 at 19:00.",
+      "generated_answer": "La conf\u00e9rence \"La mission des bergers et des mages pour aujourd'hui\" n'est pas disponible dans les \u00e9v\u00e9nements fournis. Voici d'autres \u00e9v\u00e9nements li\u00e9s \u00e0 l'Avent qui pourraient vous int\u00e9resser :\n\n**Dimanche 30 novembre 2025**\n\n- **L'Avent \u00e0 Notre-Dame de Bercy**\n  - Heure : 09:45\n  - Lieu : \u00c9glise Notre-Dame de Bercy, Paris (12e)\n  - Prix : Gratuit\n  - [Plus d'infos](https://www.notredamedebercy.fr)\n\n- **Premier dimanche de l\u2019Avent**\n  - Heure : 10:30\n  - Lieu : \u00c9glise Notre-Dame du Bon Conseil, Paris (18e)\n  - Prix : Gratuit\n  - [Plus d'infos](https://www.ndbonconseil.fr)\n\n- **Concert de l'Avent**\n  - Heure : 15:30\n  - Lieu : \u00c9glise Notre-Dame des Champs, Paris (6e)\n  - Prix : Gratuit\n  - [Plus d'infos](https://www.ndchamps.fr)\n\n- **Conf\u00e9rence \u00e0 l\u2019\u00e9cole des Saints \u2013 Saint Cur\u00e9 d\u2019Ars (II)**\n  - Heure : 17:00\n  - Lieu : \u00c9glise de La Madeleine, Paris (8e)\n  - Prix : Gratuit\n  - [Plus d'infos](https://lamadeleineparis.fr/event/conference-a-lecole-des-saints-saint-cure-dars-ii/)",
+      "similarity": 0.9133061170578003,
+      "satisfaction": 0.8510930585289002
+    },
+    {
+      "question": "Is the event 'Conf\u00e9rence de l'Avent : \u201cLa mission des bergers et des mages pour aujourd'hui\u201d' free?",
+      "ground_truth": "The event is paid.",
+      "generated_answer": "L'\u00e9v\u00e9nement \"Conf\u00e9rence de l'Avent : \u201cLa mission des bergers et des mages pour aujourd'hui\u201d\" n'est pas list\u00e9 dans les \u00e9v\u00e9nements disponibles. Cependant, voici quelques \u00e9v\u00e9nements pertinents qui se d\u00e9roulent pendant votre p\u00e9riode de contrainte :\n\n**\u00c9v\u00e9nements gratuits :**\n\n1. **L'Avent \u00e0 Notre-Dame de Bercy**\n   - Date : Dimanche 30 novembre 2025, 09h45\n   - Lieu : \u00c9glise Notre-Dame de Bercy, Paris (12e)\n   - Prix : Gratuit\n   - Description : Temps d'oraison guid\u00e9 par la Parole, autour de la cr\u00e8che.\n   - URL : [\u00c9glise Notre-Dame de Bercy](https://eglisenotredamedebercy.fr)\n\n2. **Concert de l'Avent**\n   - Date : Dimanche 30 novembre 2025, 15h30\n   - Lieu : \u00c9glise Notre-Dame des Champs, Paris (6e)\n   - Prix : Gratuit\n   - Description : Concert de l'Avent par le ch\u0153ur Canta Oraque.\n   - URL : [\u00c9glise Notre-Dame des Champs](https://www.ndchamps.org)\n\n3. **Conf\u00e9rence \u00e0 l\u2019\u00e9cole des Saints \u2013 Saint Cur\u00e9 d\u2019Ars (II)**\n   - Date : Dimanche 30 novembre 2025, 17h00\n   - Lieu : \u00c9glise de La Madeleine, Paris (8e)\n   - Prix : Gratuit\n   - Description : Conf\u00e9rence sur Saint Cur\u00e9 d'Ars.\n   - URL : [\u00c9glise de La Madeleine](https://lamadeleineparis.fr/event/conference-a-lecole-des-saints-saint-cure-dars-ii/)\n\nSi vous avez besoin de plus d'informations ou d'autres recommandations, n'h\u00e9sitez pas \u00e0 demander !",
+      "similarity": 0.7289819121360779,
+      "satisfaction": 0.763890956068039
+    },
+    {
+      "question": "Where is the event 'Concert de midi : Hindemith, Penderecki et Debussy' taking place?",
+      "ground_truth": "The event 'Concert de midi : Hindemith, Penderecki et Debussy' is taking place at Coll\u00e8ge des Bernardins.",
+      "generated_answer": "I'm sorry, but the event \"Concert de midi : Hindemith, Penderecki et Debussy\" is not listed in the provided context. However, I can recommend some other music events that you might find interesting:\n\n1. **Mini concerts de l'avent**\n   - Date: Saturday 06 December 2025, 18:00\n   - Venue: \u00c9glise Notre-Dame de l'Arche d'Alliance, Paris (15e)\n   - Price: None\n   - Description: Mini concerts de l'avent featuring children's choirs singing Christmas songs.\n   - URL: Not provided\n\n2. **Piano Pulse #2 : Katar\u00edna Pa\u013eov\u00e1 & Milan Pa\u013ea**\n   - Date: Wednesday 03 December 2025, 19:30\n   - Venue: Centre tch\u00e8que de Paris, Paris (6e)\n   - Price: None\n   - Description: A piano concert featuring Katar\u00edna Pa\u013eov\u00e1 and Milan Pa\u013ea.\n   - URL: Not provided\n\n3. **Voix-l\u00e0 #2 : concert de B\u00e1ra Zmekov\u00e1**\n   - Date: Wednesday 10 December 2025, 20:00\n   - Venue: Centre tch\u00e8que de Paris, Paris (6e)\n   - Price: Free\n   - Description: A concert featuring the singer and composer B\u00e1ra Zmekov\u00e1.\n   - URL: Not provided\n\nThese events might offer a similar musical experience to the one you were looking for. Enjoy your time in Paris!",
+      "similarity": 0.8797956705093384,
+      "satisfaction": 0.8444178352546692
+    },
+    {
+      "question": "When is 'Concert de midi : Hindemith, Penderecki et Debussy' scheduled?",
+      "ground_truth": "'Concert de midi : Hindemith, Penderecki et Debussy' is scheduled for 2026-01-28 at 11:30.",
+      "generated_answer": "Le concert \"Concert de midi : Hindemith, Penderecki et Debussy\" n'est pas disponible dans les \u00e9v\u00e9nements fournis. Cependant, je vous recommande un autre \u00e9v\u00e9nement musical :\n\n**Mini concerts de l'avent**\n- **Date et heure** : Samedi 06 d\u00e9cembre 2025, 18:00\n- **Lieu** : \u00c9glise Notre-Dame de l'Arche d'Alliance, Paris (15e)\n- **Prix** : Gratuit\n- **Description** : Tous les samedis de l'Avent \u00e0 18h, les enfants du cat\u00e9chisme et la Mini-Hosanna chantent No\u00ebl sur les marches de l'\u00e9glise. Chacun d'entre vous est invit\u00e9 \u00e0 venir les \u00e9couter et \u00e0 participer aux chants ! Ces repr\u00e9sentations ont pour but de f\u00eater l'Avent tous ensemble, de pr\u00e9parer la venue de No\u00ebl en famille.\n\nSi vous souhaitez plus d'informations, veuillez consulter le site web de l'\u00e9glise ou contacter l'organisateur.",
+      "similarity": 0.860887348651886,
+      "satisfaction": 0.864523674325943
+    },
+    {
+      "question": "Is the event 'Concert de midi : Hindemith, Penderecki et Debussy' free?",
+      "ground_truth": "The event is paid.",
+      "generated_answer": "The event 'Concert de midi : Hindemith, Penderecki et Debussy' is not listed in the provided context. However, here are some relevant music events that you might enjoy:\n\n**Free Music Events:**\n\n1. **Voix-l\u00e0 #2 : concert de B\u00e1ra Zmekov\u00e1**\n   - Date: Wednesday 10 December 2025, 20:00\n   - Venue: Centre tch\u00e8que de Paris, Paris (6e)\n   - Price: Free\n   - Description: A concert featuring the singer and composer B\u00e1ra Zmekov\u00e1.\n   - URL: [Centre tch\u00e8que de Paris](https://www.centretcheque.fr)\n\n2. **Mini concerts de l'avent**\n   - Date: Saturday 06 December 2025, 18:00\n   - Venue: \u00c9glise Notre-Dame de l'Arche d'Alliance, Paris (15e)\n   - Price: Free\n   - Description: Children from the catechism and the Mini-Hosanna sing Christmas songs on the church steps.\n   - URL: [\u00c9glise Notre-Dame de l'Arche d'Alliance](https://www.arche-d-alliance.fr)\n\nIf you are looking for a specific type of music or have other preferences, please let me know, and I can help you find more suitable events.",
+      "similarity": 0.737377405166626,
+      "satisfaction": 0.7930487025833131
+    },
+    {
+      "question": "Where is the event 'JOURN\u00c9E D'ENTRAIDE ET D\u2019AMITI\u00c9: samedi 29/11/2025 de 10h30 \u00e0 20h' taking place?",
+      "ground_truth": "The event 'JOURN\u00c9E D'ENTRAIDE ET D\u2019AMITI\u00c9: samedi 29/11/2025 de 10h30 \u00e0 20h' is taking place at \u00c9glise Saint-Marcel.",
+      "generated_answer": "I couldn't find any events matching your criteria. Please try broadening your search or adjusting the time period.",
+      "similarity": 0.7226861715316772,
+      "satisfaction": 0.5552230857658387
+    },
+    {
+      "question": "When is 'JOURN\u00c9E D'ENTRAIDE ET D\u2019AMITI\u00c9: samedi 29/11/2025 de 10h30 \u00e0 20h' scheduled?",
+      "ground_truth": "'JOURN\u00c9E D'ENTRAIDE ET D\u2019AMITI\u00c9: samedi 29/11/2025 de 10h30 \u00e0 20h' is scheduled for 2025-11-29 at 09:30.",
       "generated_answer": "Je n'ai pas trouv\u00e9 d'\u00e9v\u00e9nements correspondant \u00e0 vos crit\u00e8res. Essayez d'\u00e9largir votre recherche ou d'ajuster la p\u00e9riode.",
-      "similarity": 0.7324193120002747,
-      "satisfaction": 0.5590096560001373
+      "similarity": 0.7845795154571533,
+      "satisfaction": 0.5865697577285767
     },
     {
-      "question": "Where is the event 'Ostereiersuche' taking place?",
-      "ground_truth": "The event 'Ostereiersuche' is taking place at Katholische Gemeinde Sankt Albertus Magnus.",
-      "generated_answer": "The event 'Ostereiersuche' is taking place at the Katholische Gemeinde Sankt Albertus Magnus, Paris on Sunday, 05 April 2026, at 12:00. Here are the details:\n\n**Title:** Ostereiersuche\n**Date:** Sunday 05 April 2026, 12:00\n**Venue:** Katholische Gemeinde Sankt Albertus Magnus, Paris\n**Price:** None\n**Description:** Ostereiersuche\nAnschlie\u00dfend an den Ostergottesdienst laden wir die Kinder zur Ostereiersuche ein.\n**URL:** Not available\n\nIf you're interested in related events at the same venue, you might also consider:\n\n**Title:** Festliches Osterhochamt\n**Date:** Sunday 05 April 2026, 11:00\n**Venue:** Katholische Gemeinde Sankt Albertus Magnus, Paris\n**Price:** None\n**Description:** Festliches Osterhochamt\nFeierlicher Festgottesdienst zur Auferstehung Jesu\n**URL:** Not available\n\n**Title:** Osterbasteln\n**Date:** Sunday 29 March 2026, 12:45\n**Venue:** Katholische Gemeinde Sankt Albertus Magnus, Paris\n**Price:** None\n**Description:** Osterbasteln\nDie Kindergruppe trifft sich zum Osterbasteln\n**URL:** Not available",
-      "similarity": 0.9112961292266846,
-      "satisfaction": 0.8307680646133424
-    },
-    {
-      "question": "When is 'Ostereiersuche' scheduled?",
-      "ground_truth": "'Ostereiersuche' is scheduled for 2026-04-05 10:00:00+00:00 at .",
-      "generated_answer": "L'\u00e9v\u00e9nement \"Ostereiersuche\" est pr\u00e9vu pour le dimanche 05 avril 2026 \u00e0 12h00 \u00e0 la Katholische Gemeinde Sankt Albertus Magnus, Paris. Voici les d\u00e9tails :\n\n- **Titre** : Ostereiersuche\n- **Date/Heure** : Dimanche 05 avril 2026, 12h00\n- **Lieu** : Katholische Gemeinde Sankt Albertus Magnus, Paris\n- **Prix** : Gratuit\n- **URL** : Non disponible\n\nSi vous souhaitez participer \u00e0 d'autres \u00e9v\u00e9nements similaires, voici quelques suggestions :\n\n- **Titre** : Osternacht\n- **Date/Heure** : Samedi 04 avril 2026, 20h15\n- **Lieu** : Katholische Gemeinde Sankt Albertus Magnus, Paris\n- **Prix** : Gratuit\n- **URL** : Non disponible\n\n- **Titre** : Osterbasteln\n- **Date/Heure** : Dimanche 29 mars 2026, 12h45\n- **Lieu** : Katholische Gemeinde Sankt Albertus Magnus, Paris\n- **Prix** : Gratuit\n- **URL** : Non disponible\n\nCes \u00e9v\u00e9nements sont \u00e9galement organis\u00e9s par la Katholische Gemeinde Sankt Albertus Magnus et pourraient vous int\u00e9resser.",
-      "similarity": 0.8674120903015137,
-      "satisfaction": 0.7337060451507569
-    },
-    {
-      "question": "Is the event 'Ostereiersuche' free?",
+      "question": "Is the event 'JOURN\u00c9E D'ENTRAIDE ET D\u2019AMITI\u00c9: samedi 29/11/2025 de 10h30 \u00e0 20h' free?",
       "ground_truth": "The event is paid.",
       "generated_answer": "I couldn't find any events matching your criteria. Please try broadening your search or adjusting the time period.",
       "similarity": 0.7532389760017395,
-      "satisfaction": 0.5700594880008698
+      "satisfaction": 0.5705394880008697
     },
     {
-      "question": "Where is the event 'Concert Sacr\u00e9e Musique : Just Believe Gospel \u00e0 la bougie' taking place?",
-      "ground_truth": "The event 'Concert Sacr\u00e9e Musique : Just Believe Gospel \u00e0 la bougie' is taking place at \u00c9glise Saint-Jean-Baptiste de Belleville.",
-      "generated_answer": "Je n'ai pas trouv\u00e9 d'\u00e9v\u00e9nements correspondant \u00e0 vos crit\u00e8res. Essayez d'\u00e9largir votre recherche ou d'ajuster la p\u00e9riode.",
-      "similarity": 0.7699151039123535,
-      "satisfaction": 0.5792775519561768
+      "question": "Where is the event 'Concert des Chantiers du Cardinal' taking place?",
+      "ground_truth": "The event 'Concert des Chantiers du Cardinal' is taking place at \u00c9glise Saint-Fran\u00e7ois-Xavier.",
+      "generated_answer": "I'm sorry, but the event 'Concert des Chantiers du Cardinal' is not listed in the provided context. However, I can recommend a similar music event that you might enjoy:\n\n**Mini concerts de l'avent**\n- Date: Saturday 06 December 2025, 18:00\n- Venue: \u00c9glise Notre-Dame de l'Arche d'Alliance, Paris (15e)\n- Price: None\n- Description: Mini concerts de l'avent\n- URL: Not provided\n\nThis event features children from the catechism and the Mini-Hosanna choir singing Christmas songs on the steps of the church. Everyone is invited to listen and participate in the songs. These performances aim to celebrate Advent together.",
+      "similarity": 0.8729032278060913,
+      "satisfaction": 0.8870516139030458
     },
     {
-      "question": "When is 'Concert Sacr\u00e9e Musique : Just Believe Gospel \u00e0 la bougie' scheduled?",
-      "ground_truth": "'Concert Sacr\u00e9e Musique : Just Believe Gospel \u00e0 la bougie' is scheduled for 2025-12-12 19:30:00+00:00 at .",
-      "generated_answer": "Je n'ai pas trouv\u00e9 d'\u00e9v\u00e9nements correspondant \u00e0 vos crit\u00e8res. Essayez d'\u00e9largir votre recherche ou d'ajuster la p\u00e9riode.",
-      "similarity": 0.7478674650192261,
-      "satisfaction": 0.553893732509613
+      "question": "When is 'Concert des Chantiers du Cardinal' scheduled?",
+      "ground_truth": "'Concert des Chantiers du Cardinal' is scheduled for 2025-12-02 at 19:00.",
+      "generated_answer": "The 'Concert des Chantiers du Cardinal' is not listed in the provided events. However, here is a relevant music event that you might enjoy:\n\n**Mini concerts de l'avent**\n- **Date:** Saturday, December 6, 2025, 6:00 PM\n- **Venue:** \u00c9glise Notre-Dame de l'Arche d'Alliance\n- **Neighborhood:** 15e\n- **Price:** Free\n- **URL:** Not provided\n\nThis event features children from the catechism and the Mini-Hosanna choir singing Christmas songs on the steps of the church. Everyone is invited to listen and participate in the songs. These performances aim to celebrate Advent together.",
+      "similarity": 0.9061003923416138,
+      "satisfaction": 0.909050196170807
     },
     {
-      "question": "Is the event 'Concert Sacr\u00e9e Musique : Just Believe Gospel \u00e0 la bougie' free?",
+      "question": "Is the event 'Concert des Chantiers du Cardinal' free?",
       "ground_truth": "The event is paid.",
-      "generated_answer": "Je n'ai pas trouv\u00e9 d'\u00e9v\u00e9nements correspondant \u00e0 vos crit\u00e8res. Essayez d'\u00e9largir votre recherche ou d'ajuster la p\u00e9riode.",
-      "similarity": 0.7324193120002747,
-      "satisfaction": 0.5601696560001374
+      "generated_answer": "Le concert \"Concert des Chantiers du Cardinal\" n'est pas list\u00e9 dans les \u00e9v\u00e9nements disponibles. Cependant, voici quelques suggestions d'\u00e9v\u00e9nements musicaux gratuits \u00e0 Paris :\n\n- **Mini concerts de l'avent**\n  - Date : Samedi 06 d\u00e9cembre 2025, 18:00\n  - Lieu : \u00c9glise Notre-Dame de l'Arche d'Alliance, Paris (15e)\n  - Prix : Gratuit\n  - URL : [Lien non fourni]\n\n- **Voix-l\u00e0 #2 : concert de B\u00e1ra Zmekov\u00e1**\n  - Date : Mercredi 10 d\u00e9cembre 2025, 20:00\n  - Lieu : Centre tch\u00e8que de Paris, Paris (6e)\n  - Prix : Gratuit\n  - URL : [Lien non fourni]\n\nCes \u00e9v\u00e9nements devraient vous offrir une bonne s\u00e9lection de musique gratuite \u00e0 Paris.",
+      "similarity": 0.7164169549942017,
+      "satisfaction": 0.8052484774971009
     },
     {
-      "question": "Where is the event 'La Pi\u00e8ce aux 100 florins de Rembrandt : Un tr\u00e9sor inestimable' taking place?",
-      "ground_truth": "The event 'La Pi\u00e8ce aux 100 florins de Rembrandt : Un tr\u00e9sor inestimable' is taking place at Coll\u00e8ge des Bernardins.",
-      "generated_answer": "Je n'ai pas trouv\u00e9 d'\u00e9v\u00e9nements correspondant \u00e0 vos crit\u00e8res. Essayez d'\u00e9largir votre recherche ou d'ajuster la p\u00e9riode.",
-      "similarity": 0.7584519982337952,
-      "satisfaction": 0.5725459991168976
+      "question": "Where is the event 'March\u00e9 de No\u00ebl' taking place?",
+      "ground_truth": "The event 'March\u00e9 de No\u00ebl' is taking place at Crypte, Saint-Joseph des \u00c9pinettes.",
+      "generated_answer": "The \"March\u00e9 de No\u00ebl\" event is taking place at the following locations:\n\n1. **March\u00e9 de No\u00ebl**\n   - Date: Saturday 29 November 2025, 18:00\n   - Venue: \u00c9glise Notre-Dame de l'Arche d'Alliance, Paris (15e)\n   - Price: None\n   - URL: [Event Link](https://example.com/event1)\n\n2. **March\u00e9 de No\u00ebl**\n   - Date: Saturday 06 December 2025, 10:00\n   - Venue: Crypte, Saint-Joseph des \u00c9pinettes, Paris (17e)\n   - Price: Free\n   - URL: [Event Link](https://example.com/event2)\n\n3. **March\u00e9 de No\u00ebl**\n   - Date: Saturday 29 November 2025, 10:00\n   - Venue: Salles paroissiales de Saint-L\u00e9on, Paris (15e)\n   - Price: Free\n   - URL: [Event Link](https://example.com/event3)\n\nThese are the locations where the \"March\u00e9 de No\u00ebl\" event is taking place.",
+      "similarity": 0.852944016456604,
+      "satisfaction": 0.8498320082283021
     },
     {
-      "question": "When is 'La Pi\u00e8ce aux 100 florins de Rembrandt : Un tr\u00e9sor inestimable' scheduled?",
-      "ground_truth": "'La Pi\u00e8ce aux 100 florins de Rembrandt : Un tr\u00e9sor inestimable' is scheduled for 2025-12-01 11:45:00+00:00 at .",
-      "generated_answer": "Je n'ai pas trouv\u00e9 d'\u00e9v\u00e9nements correspondant \u00e0 vos crit\u00e8res. Essayez d'\u00e9largir votre recherche ou d'ajuster la p\u00e9riode.",
-      "similarity": 0.7286858558654785,
-      "satisfaction": 0.5591029279327393
+      "question": "When is 'March\u00e9 de No\u00ebl' scheduled?",
+      "ground_truth": "'March\u00e9 de No\u00ebl' is scheduled for 2025-12-06 at 09:00.",
+      "generated_answer": "Le \"March\u00e9 de No\u00ebl\" est pr\u00e9vu aux dates et lieux suivants :\n\n1. **March\u00e9 de No\u00ebl**\n   - Date : Samedi 29 novembre 2025, 18:00\n   - Lieu : \u00c9glise Notre-Dame de l'Arche d'Alliance, Paris (15e)\n   - Prix : Gratuit\n   - URL : [Lien](https://example.com/event1)\n\n2. **March\u00e9 de No\u00ebl**\n   - Date : Samedi 06 d\u00e9cembre 2025, 10:00\n   - Lieu : Crypte, Saint-Joseph des \u00c9pinettes, Paris (17e)\n   - Prix : Gratuit\n   - URL : [Lien](https://example.com/event2)\n\n3. **March\u00e9 de No\u00ebl**\n   - Date : Samedi 29 novembre 2025, 10:00\n   - Lieu : Salles paroissiales de Saint-L\u00e9on, Paris (15e)\n   - Prix : Gratuit\n   - URL : [Lien](https://example.com/event3)\n\nSi vous souhaitez des informations sur d'autres \u00e9v\u00e9nements de No\u00ebl, n'h\u00e9sitez pas \u00e0 demander !",
+      "similarity": 0.8700478076934814,
+      "satisfaction": 0.7350239038467408
     },
     {
-      "question": "Is the event 'La Pi\u00e8ce aux 100 florins de Rembrandt : Un tr\u00e9sor inestimable' free?",
+      "question": "Is the event 'March\u00e9 de No\u00ebl' free?",
       "ground_truth": "The event is paid.",
+      "generated_answer": "The \"March\u00e9 de No\u00ebl\" event at Crypte, Saint-Joseph des \u00c9pinettes, Paris (17e) on Saturday, December 6, 2025, from 10:00 AM is free to attend.\n\nHere are some other free events you might enjoy:\n\n1. **March\u00e9 de No\u00ebl**\n   - Date: Saturday, November 29, 2025, 10:00\n   - Venue: Salles paroissiales de Saint-L\u00e9on, Paris (15e)\n   - Price: Free\n   - Description: A festive Advent market with gift ideas for all budgets.\n   - URL: [Link](https://example.com/marche-noel-saint-leon)\n\n2. **Journ\u00e9e d'Entraide et d'Amiti\u00e9**\n   - Date: Saturday, November 29, 2025, 10:30\n   - Venue: \u00c9glise Saint-Marcel, Paris (13e)\n   - Price: Free\n   - Description: A day of solidarity and friendship with various stands, including Christmas objects, toys, fine foods, and more.\n   - URL: [Link](https://example.com/journee-entraide)\n\n3. **F\u00eate de la Saint Nicolas**\n   - Date: Saturday, December 6, 2025, 11:00\n   - Venue: Saint-Pierre de Montmartre, Paris (18e)\n   - Price: Free\n   - Description: Celebrate Saint Nicholas with a morning mass and activities in the afternoon.\n   - URL: [Link](https://example.com/fete-saint-nicolas)\n\nFor more information, please visit the respective event URLs. Enjoy your time in Paris!",
+      "similarity": 0.7496488094329834,
+      "satisfaction": 0.7797044047164917
+    },
+    {
+      "question": "Where is the event 'Samedi 06 d\u00e9cembre 2025 de 20h \u00e0 23h: concert COGE' taking place?",
+      "ground_truth": "The event 'Samedi 06 d\u00e9cembre 2025 de 20h \u00e0 23h: concert COGE' is taking place at \u00c9glise Saint-Marcel.",
+      "generated_answer": "The event \"Samedi 06 d\u00e9cembre 2025 de 20h \u00e0 23h: concert COGE\" is not listed in the provided context. However, here is a relevant music event taking place in the 6th arrondissement around that time:\n\n**Voix-l\u00e0 #2 : concert de B\u00e1ra Zmekov\u00e1**\n- Date: Wednesday 10 December 2025, 20:00\n- Venue: Centre tch\u00e8que de Paris\n- Arrondissement: 6\n- Price: Free\n- URL: [Centre tch\u00e8que de Paris](https://www.centretcheque.fr)\n\nThis concert features B\u00e1ra Zmekov\u00e1 and is part of the Voix-l\u00e0 series, showcasing female artists. If you're looking for events in the 6th arrondissement, this might be of interest to you.",
+      "similarity": 0.8963682651519775,
+      "satisfaction": 0.8918641325759888
+    },
+    {
+      "question": "When is 'Samedi 06 d\u00e9cembre 2025 de 20h \u00e0 23h: concert COGE' scheduled?",
+      "ground_truth": "'Samedi 06 d\u00e9cembre 2025 de 20h \u00e0 23h: concert COGE' is scheduled for 2025-12-06 at 19:00.",
       "generated_answer": "Je n'ai pas trouv\u00e9 d'\u00e9v\u00e9nements correspondant \u00e0 vos crit\u00e8res. Essayez d'\u00e9largir votre recherche ou d'ajuster la p\u00e9riode.",
-      "similarity": 0.7324193120002747,
-      "satisfaction": 0.5612496560001373
+      "similarity": 0.7739044427871704,
+      "satisfaction": 0.5805922213935852
     },
     {
-      "question": "Where is the event 'Concert de l'Avent' taking place?",
-      "ground_truth": "The event 'Concert de l'Avent' is taking place at \u00c9glise Sainte-Odile.",
-      "generated_answer": "The event \"Concert de l'Avent\" you're asking about is not explicitly listed in the provided context. However, there is a related event called \"Mini concerts de l'avent\" that might be of interest:\n\n**Mini concerts de l'avent**\n- **Date:** Saturday, December 6, 2025, at 18:00\n- **Venue:** \u00c9glise Notre-Dame de l'Arche d'Alliance\n- **Neighborhood:** 15th arrondissement (15e)\n- **Price:** Free\n- **URL:** Not provided\n\nThis event features children from the catechism and the Mini-Hosanna singing Christmas songs on the steps of the church. Everyone is invited to listen and participate in the songs. These performances aim to celebrate Advent together.\n\nIf you're looking for other music events, please let me know, and I can help you find more options!",
-      "similarity": 0.8745529651641846,
-      "satisfaction": 0.8366764825820924
-    },
-    {
-      "question": "When is 'Concert de l'Avent' scheduled?",
-      "ground_truth": "'Concert de l'Avent' is scheduled for 2025-12-12 19:30:00+00:00 at .",
-      "generated_answer": "The 'Concert de l'Avent' you're referring to is likely the \"Mini concerts de l'avent\" scheduled for Saturday, December 6, 2025, at 6:00 PM. Here are the details:\n\n**Title:** Mini concerts de l'avent\n**Date:** Saturday, December 6, 2025, 6:00 PM\n**Venue:** \u00c9glise Notre-Dame de l'Arche d'Alliance\n**Neighborhood:** 15th arrondissement (15e)\n**Price:** Free\n**URL:** Not provided\n\nThis event features children from the catechism and the Mini-Hosanna singing Christmas songs on the church steps. Everyone is invited to listen and participate in the songs. These performances aim to celebrate Advent together.",
-      "similarity": 0.915492057800293,
-      "satisfaction": 0.9061060289001466
-    },
-    {
-      "question": "Is the event 'Concert de l'Avent' free?",
+      "question": "Is the event 'Samedi 06 d\u00e9cembre 2025 de 20h \u00e0 23h: concert COGE' free?",
       "ground_truth": "The event is paid.",
-      "generated_answer": "I couldn't find any events matching your criteria. Please try broadening your search or adjusting the time period.",
-      "similarity": 0.7532389760017395,
-      "satisfaction": 0.5711394880008698
-    },
-    {
-      "question": "Where is the event 'De l'Ancien Testament au Nouveau Testament. samedi 17 janvier 2026' taking place?",
-      "ground_truth": "The event 'De l'Ancien Testament au Nouveau Testament. samedi 17 janvier 2026' is taking place at S\u00e9ances par zoom en direct.",
-      "generated_answer": "Je n'ai pas trouv\u00e9 d'\u00e9v\u00e9nements correspondant \u00e0 vos crit\u00e8res. Essayez d'\u00e9largir votre recherche ou d'ajuster la p\u00e9riode.",
-      "similarity": 0.7996731996536255,
-      "satisfaction": 0.5936765998268128
-    },
-    {
-      "question": "When is 'De l'Ancien Testament au Nouveau Testament. samedi 17 janvier 2026' scheduled?",
-      "ground_truth": "'De l'Ancien Testament au Nouveau Testament. samedi 17 janvier 2026' is scheduled for 2026-01-17 09:00:00+00:00 at .",
-      "generated_answer": "Je n'ai pas trouv\u00e9 d'\u00e9v\u00e9nements correspondant \u00e0 vos crit\u00e8res. Essayez d'\u00e9largir votre recherche ou d'ajuster la p\u00e9riode.",
-      "similarity": 0.7643357515335083,
-      "satisfaction": 0.5764078757667541
-    },
-    {
-      "question": "Is the event 'De l'Ancien Testament au Nouveau Testament. samedi 17 janvier 2026' free?",
-      "ground_truth": "The event is paid.",
-      "generated_answer": "Je n'ai pas trouv\u00e9 d'\u00e9v\u00e9nements correspondant \u00e0 vos crit\u00e8res. Essayez d'\u00e9largir votre recherche ou d'ajuster la p\u00e9riode.",
-      "similarity": 0.7324193120002747,
-      "satisfaction": 0.5588096560001373
+      "generated_answer": "L'\u00e9v\u00e9nement \"Samedi 06 d\u00e9cembre 2025 de 20h \u00e0 23h: concert COGE\" n'est pas mentionn\u00e9 dans les \u00e9v\u00e9nements disponibles. Cependant, voici une alternative dans le 6e arrondissement qui pourrait vous int\u00e9resser :\n\n- **Titre:** Voix-l\u00e0 #2 : concert de B\u00e1ra Zmekov\u00e1\n- **Date:** Mercredi 10 d\u00e9cembre 2025, 20h\n- **Lieu:** Centre tch\u00e8que de Paris\n- **Quartier/Arrondissement:** 6e\n- **Prix:** Gratuit\n- **URL:** Non disponible\n\nSi vous avez besoin d'autres recommandations ou d'informations suppl\u00e9mentaires, n'h\u00e9sitez pas \u00e0 me le faire savoir !",
+      "similarity": 0.7078195810317993,
+      "satisfaction": 0.8086697905158997
     },
     {
       "question": "Where is the event 'Les quatre saisons de Vivaldi' taking place?",
       "ground_truth": "The event 'Les quatre saisons de Vivaldi' is taking place at \u00c9glise de La Madeleine.",
-      "generated_answer": "L'\u00e9v\u00e9nement \"Les quatre saisons de Vivaldi\" se d\u00e9roule \u00e0 l'\u00c9glise de La Madeleine, Paris (8e). Voici les dates et horaires disponibles :\n\n- **Mardi 02 d\u00e9cembre 2025, 20:00**\n  [Informations](https://lamadeleineparis.fr/event/les-quatre-saisons-de-vivaldi-27/)\n\n- **Samedi 13 d\u00e9cembre 2025, 20:00**\n  [Informations](https://lamadeleineparis.fr/event/les-quatre-saisons-de-vivaldi-30/)\n\n- **Vendredi 02 janvier 2026, 20:00**\n  [Informations](https://lamadeleineparis.fr/event/les-quatre-saisons-de-vivaldi-38/)\n\n- **Samedi 03 janvier 2026, 20:00**\n  [Informations](https://lamadeleineparis.fr/event/les-quatre-saisons-de-vivaldi-39/)\n\n- **Mardi 06 janvier 2026, 19:30**\n  [Informations](https://lamadeleineparis.fr/event/les-quatre-saisons-de-vivaldi-40/)\n\nPour plus de d\u00e9tails, veuillez consulter les liens fournis.",
-      "similarity": 0.9061540365219116,
-      "satisfaction": 0.7530770182609559
+      "generated_answer": "The event \"Les quatre saisons de Vivaldi\" is taking place at \u00c9glise de La Madeleine, Paris (8e). Here are the upcoming dates and times for this event:\n\n- **Saturday 13 December 2025, 20:00**\n  - [More Info](https://lamadeleineparis.fr/event/les-quatre-saisons-de-vivaldi-30/)\n\n- **Wednesday 17 December 2025, 20:00**\n  - [More Info](https://lamadeleineparis.fr/event/les-quatre-saisons-de-vivaldi-31/)\n\n- **Sunday 28 December 2025, 20:00**\n  - [More Info](https://lamadeleineparis.fr/event/les-quatre-saisons-de-vivaldi-35/)\n\n- **Tuesday 30 December 2025, 20:00**\n  - [More Info](https://lamadeleineparis.fr/event/les-quatre-saisons-de-vivaldi-36/)\n\n- **Tuesday 02 December 2025, 20:00**\n  - [More Info](https://lamadeleineparis.fr/event/les-quatre-saisons-de-vivaldi-27/)\n\n- **Friday 02 January 2026, 20:00**\n  - [More Info](https://lamadeleineparis.fr/event/les-quatre-saisons-de-vivaldi-38/)\n\n- **Saturday 03 January 2026, 20:00**\n  - [More Info](https://lamadeleineparis.fr/event/les-quatre-saisons-de-vivaldi-39/)\n\n- **Tuesday 06 January 2026, 19:30**\n  - [More Info](https://lamadeleineparis.fr/event/les-quatre-saisons-de-vivaldi-40/)",
+      "similarity": 0.9148684740066528,
+      "satisfaction": 0.7574342370033265
     },
     {
       "question": "When is 'Les quatre saisons de Vivaldi' scheduled?",
-      "ground_truth": "'Les quatre saisons de Vivaldi' is scheduled for 2025-12-28 19:00:00+00:00 at .",
-      "generated_answer": "Le concert \"Les quatre saisons de Vivaldi\" est pr\u00e9vu \u00e0 plusieurs dates \u00e0 l'\u00c9glise de La Madeleine \u00e0 Paris (8e). Voici les dates disponibles :\n\n- **Mardi 02 d\u00e9cembre 2025, 20:00**\n  - Lieu : \u00c9glise de La Madeleine, Paris (8e)\n  - Prix : Gratuit\n  - URL : [Informations](https://lamadeleineparis.fr/event/les-quatre-saisons-de-vivaldi-27/)\n\n- **Samedi 13 d\u00e9cembre 2025, 20:00**\n  - Lieu : \u00c9glise de La Madeleine, Paris (8e)\n  - Prix : Gratuit\n  - URL : [Informations](https://lamadeleineparis.fr/event/les-quatre-saisons-de-vivaldi-30/)\n\n- **Mercredi 17 d\u00e9cembre 2025, 20:00**\n  - Lieu : \u00c9glise de La Madeleine, Paris (8e)\n  - Prix : Gratuit\n  - URL : [Informations](https://lamadeleineparis.fr/event/les-quatre-saisons-de-vivaldi-31/)\n\n- **Samedi 03 janvier 2026, 20:00**\n  - Lieu : \u00c9glise de La Madeleine, Paris (8e)\n  - Prix : Gratuit\n  - URL : [Informations](https://lamadeleineparis.fr/event/les-quatre-saisons-de-vivaldi-39/)\n\n- **Mardi 06 janvier 2026, 19:30**\n  - Lieu : \u00c9glise de La Madeleine, Paris (8e)\n  - Prix : Gratuit\n  - URL : [Informations](https://lamadeleineparis.fr/event/les-quatre-saisons-de-vivaldi-40/)\n\nChoisissez la date qui vous convient le mieux pour assister \u00e0 ce concert.",
-      "similarity": 0.8808822631835938,
-      "satisfaction": 0.7921211315917969
+      "ground_truth": "'Les quatre saisons de Vivaldi' is scheduled for 2025-12-28 at 19:00.",
+      "generated_answer": "J'ai rencontr\u00e9 une erreur lors de la g\u00e9n\u00e9ration de la r\u00e9ponse. Voici les \u00e9v\u00e9nements trouv\u00e9s :\n\n1. Les quatre saisons de Vivaldi - \u00c9glise de La Madeleine\n\n2. Mozart : Les plus beaux quatuors - Coll\u00e8ge des Bernardins\n\n3. Les quatre saisons de Vivaldi - \u00c9glise de La Madeleine\n\n",
+      "similarity": 0.8242078423500061,
+      "satisfaction": 0.41210392117500305
     },
     {
       "question": "Is the event 'Les quatre saisons de Vivaldi' free?",
       "ground_truth": "The event is paid.",
-      "generated_answer": "Je n'ai pas trouv\u00e9 d'\u00e9v\u00e9nements correspondant \u00e0 vos crit\u00e8res. Essayez d'\u00e9largir votre recherche ou d'ajuster la p\u00e9riode.",
-      "similarity": 0.7324193120002747,
-      "satisfaction": 0.5609296560001373
+      "generated_answer": "L'\u00e9v\u00e9nement \"Les quatre saisons de Vivaldi\" n'est pas gratuit. Voici les d\u00e9tails :\n\n**Titre :** Les quatre saisons de Vivaldi\n**Date :** Mardi 06 janvier 2026, 19:30\n**Lieu :** \u00c9glise de La Madeleine, Paris (8e)\n**Prix :** Non sp\u00e9cifi\u00e9 (mais pas gratuit)\n**URL :** [Informations](https://lamadeleineparis.fr/event/les-quatre-saisons-de-vivaldi-40/)\n\nSi vous cherchez des \u00e9v\u00e9nements gratuits, voici quelques suggestions :\n\n**Titre :** Concert de l'Avent\n**Date :** Vendredi 05 d\u00e9cembre 2025, 20:30\n**Lieu :** Eglise Sainte-Elisabeth de Hongrie, Paris (3e)\n**Prix :** Gratuit\n**URL :** [Informations](https://www.paris.fr/agenda/evenement/101350-titre-de-levenement)\n\n**Titre :** Atelier chant \u201cOiseaux, Si Tous Les Ans\u201d\n**Date :** Samedi 21 mars 2026, 15:00\n**Lieu :** Coll\u00e8ge des Bernardins, Paris (5e)\n**Prix :** Gratuit\n**URL :** [Informations](https://www.paris.fr/agenda/evenement/101350-titre-de-levenement)\n\n**Titre :** F\u00eate de la saint Nicolas\n**Date :** Samedi 06 d\u00e9cembre 2025, 11:00\n**Lieu :** Saint-Pierre de Montmartre, Paris (18e)\n**Prix :** Gratuit\n**URL :** [Informations](https://www.paris.fr/agenda/evenement/101350-titre-de-levenement)\n\nSi vous avez besoin de plus d'informations ou d'autres recommandations, n'h\u00e9sitez pas \u00e0 demander !",
+      "similarity": 0.7309600710868835,
+      "satisfaction": 0.7094800355434419
     },
     {
       "question": "Where is the event 'R\u00e9cital d\u2019orgue : Vincent Dubois' taking place?",
       "ground_truth": "The event 'R\u00e9cital d\u2019orgue : Vincent Dubois' is taking place at Cath\u00e9drale Notre-Dame de Paris.",
-      "generated_answer": "The event \"R\u00e9cital d\u2019orgue : Vincent Dubois\" is taking place at the Cath\u00e9drale Notre-Dame de Paris in the 4th arrondissement of Paris. Here are the details:\n\n- **Title:** R\u00e9cital d\u2019orgue : Vincent Dubois\n- **Date:** Tuesday 06 January 2026, 20:30\n- **Venue:** Cath\u00e9drale Notre-Dame de Paris\n- **Neighborhood/Arrondissement:** Paris (4e)\n- **Price:** None\n- **Description:** A concert featuring some of the most popular concert pieces, illustrating the immense expressive range of the great organ of Notre-Dame.\n\nIf you're interested in similar events, you might also consider:\n\n- **Title:** R\u00e9cital d'orgue : Thibault Fajoles\n- **Date:** Tuesday 09 December 2025, 20:30\n- **Venue:** Cath\u00e9drale Notre-Dame de Paris\n- **Neighborhood/Arrondissement:** Paris (4e)\n- **Price:** None\n- **Description:** Organist Thibault Fajoles presents a program dedicated to the time of Advent, a spiritual journey towards the feast of Christmas.\n\n- **Title:** Dimanches Musicaux \u2013 R\u00e9cital d\u2019orgue\n- **Date:** Thursday 25 December 2025, 16:00\n- **Venue:** \u00c9glise de La Madeleine\n- **Neighborhood/Arrondissement:** Paris (8e)\n- **Price:** None\n- **Description:** An organ concert at La Madeleine in Paris.\n\n- **Title:** R\u00e9cital de No\u00ebl et du Nouvel An\n- **Date:** Sunday 04 January 2026, 16:00\n- **Venue:** \u00c9glise de La Madeleine\n- **Neighborhood/Arrondissement:** Paris (8e)\n- **Price:** None\n- **Description:** A special concert for Christmas and New Year's at La Madeleine in Paris.",
-      "similarity": 0.9156087040901184,
-      "satisfaction": 0.7665643520450592
+      "generated_answer": "The event \"R\u00e9cital d\u2019orgue : Vincent Dubois\" is taking place at the Cath\u00e9drale Notre-Dame de Paris, located in the 4th arrondissement of Paris. Here are the details:\n\n- **Title:** R\u00e9cital d\u2019orgue : Vincent Dubois\n- **Date:** Tuesday 06 January 2026, 20:30\n- **Venue:** Cath\u00e9drale Notre-Dame de Paris\n- **Neighborhood:** Paris (4e)\n- **Price:** None\n- **Categories:** 19\n- **Description:** R\u00e9cital d\u2019orgue : Vincent Dubois\n  Des pages de concert parmi les plus populaires illustrent ici dans leur diversit\u00e9, entre r\u00e9pertoire et transcriptions, l'immense palette expressive du grand orgue de Notre-Dame.\n\nIf you're interested in similar events, here are a few other organ recitals happening in Paris:\n\n- **Title:** R\u00e9cital d'orgue : Thibault Fajoles\n  - **Date:** Tuesday 09 December 2025, 20:30\n  - **Venue:** Cath\u00e9drale Notre-Dame de Paris\n  - **Neighborhood:** Paris (4e)\n  - **Price:** None\n  - **Categories:** 19\n\n- **Title:** R\u00e9cital d'orgue : Thierry Escaich\n  - **Date:** Tuesday 28 April 2026, 20:30\n  - **Venue:** Cath\u00e9drale Notre-Dame de Paris\n  - **Neighborhood:** Paris (4e)\n  - **Price:** None\n  - **Categories:** 19\n\n- **Title:** R\u00e9cital d'orgue : Alan Morrison\n  - **Date:** Tuesday 03 March 2026, 20:30\n  - **Venue:** Cath\u00e9drale Notre-Dame de Paris\n  - **Neighborhood:** Paris (4e)\n  - **Price:** None\n  - **Categories:** 19\n\n- **Title:** Dimanches Musicaux \u2013 R\u00e9cital d\u2019orgue\n  - **Date:** Thursday 25 December 2025, 16:00\n  - **Venue:** \u00c9glise de La Madeleine\n  - **Neighborhood:** Paris (8e)\n  - **Price:** None\n\n- **Title:** R\u00e9cital de No\u00ebl et du Nouvel An\n  - **Date:** Sunday 04 January 2026, 16:00\n  - **Venue:** \u00c9glise de La Madeleine\n  - **Neighborhood:** Paris (8e)\n  - **Price:** None",
+      "similarity": 0.9166616797447205,
+      "satisfaction": 0.7583308398723603
     },
     {
       "question": "When is 'R\u00e9cital d\u2019orgue : Vincent Dubois' scheduled?",
-      "ground_truth": "'R\u00e9cital d\u2019orgue : Vincent Dubois' is scheduled for 2026-01-06 19:30:00+00:00 at .",
-      "generated_answer": "The 'R\u00e9cital d\u2019orgue : Vincent Dubois' is scheduled for Tuesday, 06 January 2026, at 20:30 at the Cath\u00e9drale Notre-Dame de Paris in the 4th arrondissement. Here are the details:\n\n- **Title:** R\u00e9cital d\u2019orgue : Vincent Dubois\n- **Date:** Tuesday 06 January 2026, 20:30\n- **Venue:** Cath\u00e9drale Notre-Dame de Paris\n- **Neighborhood:** Paris (4e)\n- **Price:** None\n- **URL:** Not provided\n\nIf you're interested in other organ recitals, here are a few more options:\n\n- **Title:** Dimanches Musicaux \u2013 R\u00e9cital d\u2019orgue\n- **Date:** Thursday 25 December 2025, 16:00\n- **Venue:** \u00c9glise de La Madeleine\n- **Neighborhood:** Paris (8e)\n- **Price:** None\n- **URL:** [https://lamadeleineparis.fr/event/dimanches-musicaux-recital-dorgue-par-francois-henri-houbart/](https://lamadeleineparis.fr/event/dimanches-musicaux-recital-dorgue-par-francois-henri-houbart/)\n\n- **Title:** R\u00e9cital d'orgue : Thibault Fajoles\n- **Date:** Tuesday 09 December 2025, 20:30\n- **Venue:** Cath\u00e9drale Notre-Dame de Paris\n- **Neighborhood:** Paris (4e)\n- **Price:** None\n- **URL:** Not provided\n\n- **Title:** R\u00e9cital d'orgue : Thierry Escaich\n- **Date:** Tuesday 28 April 2026, 20:30\n- **Venue:** Cath\u00e9drale Notre-Dame de Paris\n- **Neighborhood:** Paris (4e)\n- **Price:** None\n- **URL:** Not provided",
-      "similarity": 0.9299728870391846,
-      "satisfaction": 0.7649864435195923
+      "ground_truth": "'R\u00e9cital d\u2019orgue : Vincent Dubois' is scheduled for 2026-01-06 at 19:30.",
+      "generated_answer": "The event \"R\u00e9cital d\u2019orgue : Vincent Dubois\" is scheduled for Tuesday, 06 January 2026, at 20:30 at the Cath\u00e9drale Notre-Dame de Paris in the 4th arrondissement. Here are the details:\n\n- **Title:** R\u00e9cital d\u2019orgue : Vincent Dubois\n- **Date:** Tuesday 06 January 2026, 20:30\n- **Venue:** Cath\u00e9drale Notre-Dame de Paris\n- **Neighborhood:** Paris (4e)\n- **Price:** None\n- **URL:** Not provided\n\nIf you're interested in similar organ recitals, here are a few other options:\n\n- **Title:** R\u00e9cital d'orgue : Thibault Fajoles\n  - **Date:** Tuesday 09 December 2025, 20:30\n  - **Venue:** Cath\u00e9drale Notre-Dame de Paris\n  - **Neighborhood:** Paris (4e)\n  - **Price:** None\n\n- **Title:** R\u00e9cital d'orgue : Thierry Escaich\n  - **Date:** Tuesday 28 April 2026, 20:30\n  - **Venue:** Cath\u00e9drale Notre-Dame de Paris\n  - **Neighborhood:** Paris (4e)\n  - **Price:** None\n\n- **Title:** R\u00e9cital d'orgue : Alan Morrison\n  - **Date:** Tuesday 03 March 2026, 20:30\n  - **Venue:** Cath\u00e9drale Notre-Dame de Paris\n  - **Neighborhood:** Paris (4e)\n  - **Price:** None\n\n- **Title:** Dimanches Musicaux \u2013 R\u00e9cital d\u2019orgue\n  - **Date:** Thursday 25 December 2025, 16:00\n  - **Venue:** \u00c9glise de La Madeleine\n  - **Neighborhood:** Paris (8e)\n  - **Price:** None\n  - **URL:** [Informations](https://lamadeleineparis.fr/event/dimanches-musicaux-recital-dorgue-par-francois-henri-houbart/)",
+      "similarity": 0.9258280992507935,
+      "satisfaction": 0.8379940496253968
     },
     {
       "question": "Is the event 'R\u00e9cital d\u2019orgue : Vincent Dubois' free?",
       "ground_truth": "The event is paid.",
-      "generated_answer": "Je n'ai pas trouv\u00e9 d'\u00e9v\u00e9nements correspondant \u00e0 vos crit\u00e8res. Essayez d'\u00e9largir votre recherche ou d'ajuster la p\u00e9riode.",
-      "similarity": 0.7324193120002747,
-      "satisfaction": 0.5594096560001374
+      "generated_answer": "The event \"R\u00e9cital d\u2019orgue : Vincent Dubois\" does not have a specified price, so it is not explicitly free. However, here are some free events you might be interested in:\n\n1. **Les dialogues des Carm\u00e9lites**\n   - Date: Saturday 29 November 2025, 16:00\n   - Venue: Eglise Sainte-Elisabeth de Hongrie, Paris (3e)\n   - Price: free\n   - URL: Not provided\n\n2. **Voix-l\u00e0 #2 : concert de B\u00e1ra Zmekov\u00e1**\n   - Date: Wednesday 10 December 2025, 20:00\n   - Venue: Centre tch\u00e8que de Paris, Paris (6e)\n   - Price: free\n   - URL: Not provided\n\nIf you are interested in organ recitals, here are some upcoming events:\n\n1. **R\u00e9cital d\u2019orgue : Vincent Dubois**\n   - Date: Tuesday 06 January 2026, 20:30\n   - Venue: Cath\u00e9drale Notre-Dame de Paris, Paris (4e)\n   - Price: None\n   - URL: Not provided\n\n2. **Dimanches Musicaux \u2013 R\u00e9cital d\u2019orgue**\n   - Date: Thursday 25 December 2025, 16:00\n   - Venue: \u00c9glise de La Madeleine, Paris (8e)\n   - Price: None\n   - URL: [Informations](https://lamadeleineparis.fr/event/dimanches-musicaux-recital-dorgue-par-francois-henri-houbart/)\n\n3. **R\u00e9cital d'orgue : Thibault Fajoles**\n   - Date: Tuesday 09 December 2025, 20:30\n   - Venue: Cath\u00e9drale Notre-Dame de Paris, Paris (4e)\n   - Price: None\n   - URL: Not provided\n\n4. **R\u00e9cital de No\u00ebl et du Nouvel An**\n   - Date: Sunday 04 January 2026, 16:00\n   - Venue: \u00c9glise de La Madeleine, Paris (8e)\n   - Price: None\n   - URL: [Informations](https://lamadeleineparis.fr/event/recital-de-noel-et-du-nouvel-an-par-olivier-perin/)\n\n5. **R\u00e9cital d'orgue : Thierry Escaich**\n   - Date: Tuesday 28 April 2026, 20:30\n   - Venue: Cath\u00e9drale Notre-Dame de Paris, Paris (4e)\n   - Price: None\n   - URL: Not provided",
+      "similarity": 0.7310622930526733,
+      "satisfaction": 0.6655311465263367
     },
     {
       "question": "What events are happening in Paris?",
       "ground_truth": "There are various events happening in Paris including concerts, exhibitions, and theater.",
-      "generated_answer": "Here are some events happening in Paris that you might enjoy:\n\n**Religious and Community Events:**\n\n1. **Kermesse paroissiale**\n   - Date: Friday 28 November 2025, 14:00 - 18:00 (also Saturday 29 November and Sunday 30 November)\n   - Venue: \u00c9glise Notre-Dame de Lorette, Paris (9e)\n   - Price: None\n   - Description: A 3-day fair with various stands selling second-hand items, regional products, and more.\n   - URL: Not provided\n\n2. **P\u00e8lerinage anniversaire de la 1\u00e8re apparition de la Vierge \u00e0 Fatima**\n   - Date: Tuesday 12 May 2026, 21:00\n   - Venue: Sanctuaire Notre-Dame de Fatima, Paris (19e)\n   - Price: Free\n   - Description: A pilgrimage marking the anniversary of the first apparition of the Virgin in Fatima.\n   - URL: Not provided\n\n3. **Mission sur le parvis de l\u2019\u00e9glise**\n   - Date: Sunday 21 December 2025, 14:30 - 17:00\n   - Venue: Parvis de Saint-Jean-Baptiste de Belleville, Paris (19e)\n   - Price: None\n   - Description: Meetings, Christmas carols, hot drinks, and cakes.\n   - URL: Not provided\n\n**Cultural Events:**\n\n1. **Samedi 17/01/2026 de 20h \u00e0 22h: concert COALESCENCE**\n   - Date: Saturday 17 January 2026, 20:00 - 22:00\n   - Venue: \u00c9glise Saint-Marcel, Paris (13e)\n   - Price: None\n   - Description: A concert featuring Romeo and Juliet by Tchaikovsky and Pictures at an Exhibition by Mussorgsky.\n   - URL: Not provided\n\n2. **Illuminations de No\u00ebl aux Bernardins**\n   - Date: Wednesday 10 December 2025, 17:30\n   - Venue: Coll\u00e8ge des Bernardins, Paris (5e)\n   - Price: None\n   - Description: A festive event to welcome the Advent season with Christmas carols by a children's choir.\n   - URL: Not provided\n\nEnjoy your time in Paris!",
-      "similarity": 0.844089150428772,
-      "satisfaction": 0.722044575214386
+      "generated_answer": "I encountered an error generating the response. Here are the events I found:\n\n1. Samedi 17/01/2026 de 20h \u00e0 22h: concert COALESCENCE - \u00c9glise Saint-Marcel\n\n2. Kermesse paroissiale - \u00c9glise Notre-Dame de Lorette\n\n3. Ao\u00fbt 1425 : la fresque de la Danse macabre est achev\u00e9e - Coll\u00e8ge des Bernardins\n\n",
+      "similarity": 0.7826052904129028,
+      "satisfaction": 0.3913026452064514
     }
   ]
 }
